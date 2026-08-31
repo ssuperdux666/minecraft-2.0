@@ -1,0 +1,14 @@
+# ninja log v7
+87	2670	8098778206084586	CMakeFiles/cutable.dir/src/main.cpp.obj	f7ac8b28a575d2d6
+15	4400	8098778205358888	CMakeFiles/cutable.dir/src/glad.c.obj	2f2f327235b5d9ea
+4406	5262	8098778249271204	cutable.exe	68aa1a6eed6e3ce1
+104	1951	8098778475498034	CMakeFiles/cutable.dir/src/main.cpp.obj	f7ac8b28a575d2d6
+1953	2620	8098778494036758	cutable.exe	68aa1a6eed6e3ce1
+186	11019	8098782550277810	CMakeFiles/cutable.dir/src/main.cpp.obj	f7ac8b28a575d2d6
+11021	13219	8098782658748845	cutable.exe	68aa1a6eed6e3ce1
+21	1688	8098786942928296	CMakeFiles/cutable.dir/src/main.cpp.obj	f7ac8b28a575d2d6
+1689	2236	8098786959607438	cutable.exe	68aa1a6eed6e3ce1
+20	1615	8098789432624518	CMakeFiles/cutable.dir/src/main.cpp.obj	f7ac8b28a575d2d6
+1617	2245	8098789448596873	cutable.exe	68aa1a6eed6e3ce1
+181	4000	8098789582212035	CMakeFiles/cutable.dir/src/main.cpp.obj	f7ac8b28a575d2d6
+108	802	8098789671143426	cutable.exe	68aa1a6eed6e3ce1

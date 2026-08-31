@@ -1,0 +1,3 @@
+D:/minecraft/build/CMakeFiles/cutable.dir
+D:/minecraft/build/CMakeFiles/edit_cache.dir
+D:/minecraft/build/CMakeFiles/rebuild_cache.dir
