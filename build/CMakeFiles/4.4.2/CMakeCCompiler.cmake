@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "D:/msys(c++ compiler)/ucrt64/bin/gcc.exe")
+set(CMAKE_C_COMPILER "d:/msys(c++ compiler)/ucrt64/bin/gcc.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "16.2.0")

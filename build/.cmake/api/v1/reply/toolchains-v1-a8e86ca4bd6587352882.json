@@ -18,7 +18,7 @@
 					"linkFrameworkDirectories" : [],
 					"linkLibraries" : []
 				},
-				"path" : "D:/msys(c++ compiler)/ucrt64/bin/gcc.exe",
+				"path" : "d:/msys(c++ compiler)/ucrt64/bin/gcc.exe",
 				"version" : "16.2.0"
 			},
 			"language" : "C",
@@ -47,7 +47,7 @@
 					"linkFrameworkDirectories" : [],
 					"linkLibraries" : []
 				},
-				"path" : "D:/msys(c++ compiler)/ucrt64/bin/g++.exe",
+				"path" : "d:/msys(c++ compiler)/ucrt64/bin/g++.exe",
 				"version" : "16.2.0"
 			},
 			"language" : "CXX",
