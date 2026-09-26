@@ -1,0 +1,11 @@
+{
+    "git.ignoreMissingGitWarning": true,
+    "cmake.cmakePath": "D:\\msys(c++ compiler)\\ucrt64\\bin\\cmake.exe",
+    "cmake.generator": "Ninja",
+
+    "cmake.environment": {
+        "PATH": "D:\\msys(c++ compiler)\\ucrt64\\bin;${env:PATH}"
+    }
+}
+
+cannot open source file "iostream". Please run the 'Select IntelliSense Configuration...' command to locate your system headers.

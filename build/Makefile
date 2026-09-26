@@ -47,10 +47,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\msys(c++ compiler)\ucrt64\bin\cmake.exe"
+CMAKE_COMMAND = D:\cppCompiler\ucrt64\bin\cmake.exe
 
 # The command to remove a file.
-RM = "D:\msys(c++ compiler)\ucrt64\bin\cmake.exe" -E rm -f
+RM = D:\cppCompiler\ucrt64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = D:\minecraft\build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
-	"D:\msys(c++ compiler)\ucrt64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	D:\cppCompiler\ucrt64\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake to regenerate build system..."
-	"D:\msys(c++ compiler)\ucrt64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	D:\cppCompiler\ucrt64\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -128,6 +128,30 @@ cutable/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cutable.dir\build.make CMakeFiles/cutable.dir/build
 .PHONY : cutable/fast
 
+src/game/main.obj: src/game/main.cpp.obj
+.PHONY : src/game/main.obj
+
+# target to build an object file
+src/game/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cutable.dir\build.make CMakeFiles/cutable.dir/src/game/main.cpp.obj
+.PHONY : src/game/main.cpp.obj
+
+src/game/main.i: src/game/main.cpp.i
+.PHONY : src/game/main.i
+
+# target to preprocess a source file
+src/game/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cutable.dir\build.make CMakeFiles/cutable.dir/src/game/main.cpp.i
+.PHONY : src/game/main.cpp.i
+
+src/game/main.s: src/game/main.cpp.s
+.PHONY : src/game/main.s
+
+# target to generate assembly for a file
+src/game/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cutable.dir\build.make CMakeFiles/cutable.dir/src/game/main.cpp.s
+.PHONY : src/game/main.cpp.s
+
 src/glad.obj: src/glad.c.obj
 .PHONY : src/glad.obj
 
@@ -152,29 +176,29 @@ src/glad.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cutable.dir\build.make CMakeFiles/cutable.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
-src/main.obj: src/main.cpp.obj
-.PHONY : src/main.obj
+src/rendering/shader.obj: src/rendering/shader.cpp.obj
+.PHONY : src/rendering/shader.obj
 
 # target to build an object file
-src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cutable.dir\build.make CMakeFiles/cutable.dir/src/main.cpp.obj
-.PHONY : src/main.cpp.obj
+src/rendering/shader.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cutable.dir\build.make CMakeFiles/cutable.dir/src/rendering/shader.cpp.obj
+.PHONY : src/rendering/shader.cpp.obj
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/rendering/shader.i: src/rendering/shader.cpp.i
+.PHONY : src/rendering/shader.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cutable.dir\build.make CMakeFiles/cutable.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/rendering/shader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cutable.dir\build.make CMakeFiles/cutable.dir/src/rendering/shader.cpp.i
+.PHONY : src/rendering/shader.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/rendering/shader.s: src/rendering/shader.cpp.s
+.PHONY : src/rendering/shader.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\cutable.dir\build.make CMakeFiles/cutable.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/rendering/shader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cutable.dir\build.make CMakeFiles/cutable.dir/src/rendering/shader.cpp.s
+.PHONY : src/rendering/shader.cpp.s
 
 # Help Target
 help:
@@ -185,12 +209,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... cutable
+	@echo ... src/game/main.obj
+	@echo ... src/game/main.i
+	@echo ... src/game/main.s
 	@echo ... src/glad.obj
 	@echo ... src/glad.i
 	@echo ... src/glad.s
-	@echo ... src/main.obj
-	@echo ... src/main.i
-	@echo ... src/main.s
+	@echo ... src/rendering/shader.obj
+	@echo ... src/rendering/shader.i
+	@echo ... src/rendering/shader.s
 .PHONY : help
 
 

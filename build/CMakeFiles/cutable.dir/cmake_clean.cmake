@@ -1,8 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/cutable.dir/src/game/main.cpp.obj"
+  "CMakeFiles/cutable.dir/src/game/main.cpp.obj.d"
   "CMakeFiles/cutable.dir/src/glad.c.obj"
   "CMakeFiles/cutable.dir/src/glad.c.obj.d"
-  "CMakeFiles/cutable.dir/src/main.cpp.obj"
-  "CMakeFiles/cutable.dir/src/main.cpp.obj.d"
+  "CMakeFiles/cutable.dir/src/rendering/shader.cpp.obj"
+  "CMakeFiles/cutable.dir/src/rendering/shader.cpp.obj.d"
   "cutable.exe"
   "cutable.exe.manifest"
   "cutable.pdb"

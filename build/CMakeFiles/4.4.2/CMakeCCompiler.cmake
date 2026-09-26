@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "d:/msys(c++ compiler)/ucrt64/bin/gcc.exe")
+set(CMAKE_C_COMPILER "D:/cppCompiler/ucrt64/bin/gcc.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "16.2.0")
@@ -24,14 +24,14 @@ set(CMAKE_C_COMPILER_ARCHITECTURE_ID "x86_64")
 
 
 
-set(CMAKE_AR "D:/msys(c++ compiler)/ucrt64/bin/ar.exe")
-set(CMAKE_C_COMPILER_AR "D:/msys(c++ compiler)/ucrt64/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "D:/msys(c++ compiler)/ucrt64/bin/ranlib.exe")
-set(CMAKE_C_COMPILER_RANLIB "D:/msys(c++ compiler)/ucrt64/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "D:/msys(c++ compiler)/ucrt64/bin/ld.exe")
+set(CMAKE_AR "D:/cppCompiler/ucrt64/bin/ar.exe")
+set(CMAKE_C_COMPILER_AR "D:/cppCompiler/ucrt64/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "D:/cppCompiler/ucrt64/bin/ranlib.exe")
+set(CMAKE_C_COMPILER_RANLIB "D:/cppCompiler/ucrt64/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "D:/cppCompiler/ucrt64/bin/ld.exe")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
-set(CMAKE_C_COMPILER_LINKER "D:/msys(c++ compiler)/ucrt64/x86_64-w64-mingw32/bin/ld.exe")
+set(CMAKE_C_COMPILER_LINKER "D:/cppCompiler/ucrt64/x86_64-w64-mingw32/bin/ld.exe")
 set(CMAKE_C_COMPILER_LINKER_ARCHITECTURE_FLAGS "-m;i386pep")
 set(CMAKE_C_COMPILER_LINKER_ID "GNU")
 set(CMAKE_C_COMPILER_LINKER_VERSION "2.47.20260726")
@@ -80,7 +80,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "D:/msys(c++ compiler)/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include;D:/msys(c++ compiler)/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include-fixed;D:/msys(c++ compiler)/ucrt64/include")
-set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include;D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include-fixed;D:/cppCompiler/ucrt64/include")
+set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "mingw32;gcc;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;mingwex;kernel32")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0;D:/cppCompiler/ucrt64/lib/gcc;D:/cppCompiler/ucrt64/x86_64-w64-mingw32/lib;D:/cppCompiler/ucrt64/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

@@ -43,10 +43,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\msys(c++ compiler)\ucrt64\bin\cmake.exe"
+CMAKE_COMMAND = D:\cppCompiler\ucrt64\bin\cmake.exe
 
 # The command to remove a file.
-RM = "D:\msys(c++ compiler)\ucrt64\bin\cmake.exe" -E rm -f
+RM = D:\cppCompiler\ucrt64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -71,51 +71,68 @@ include CMakeFiles/cutable.dir/flags.make
 CMakeFiles/cutable.dir/codegen:
 .PHONY : CMakeFiles/cutable.dir/codegen
 
+CMakeFiles/cutable.dir/src/game/main.cpp.obj: CMakeFiles/cutable.dir/flags.make
+CMakeFiles/cutable.dir/src/game/main.cpp.obj: CMakeFiles/cutable.dir/includes_CXX.rsp
+CMakeFiles/cutable.dir/src/game/main.cpp.obj: D:/minecraft/src/game/main.cpp
+CMakeFiles/cutable.dir/src/game/main.cpp.obj: CMakeFiles/cutable.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\minecraft\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cutable.dir/src/game/main.cpp.obj"
+	D:\cppCompiler\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cutable.dir/src/game/main.cpp.obj -MF CMakeFiles\cutable.dir\src\game\main.cpp.obj.d -o CMakeFiles\cutable.dir\src\game\main.cpp.obj -c D:\minecraft\src\game\main.cpp
+
+CMakeFiles/cutable.dir/src/game/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cutable.dir/src/game/main.cpp.i"
+	D:\cppCompiler\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\minecraft\src\game\main.cpp > CMakeFiles\cutable.dir\src\game\main.cpp.i
+
+CMakeFiles/cutable.dir/src/game/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cutable.dir/src/game/main.cpp.s"
+	D:\cppCompiler\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\minecraft\src\game\main.cpp -o CMakeFiles\cutable.dir\src\game\main.cpp.s
+
 CMakeFiles/cutable.dir/src/glad.c.obj: CMakeFiles/cutable.dir/flags.make
 CMakeFiles/cutable.dir/src/glad.c.obj: CMakeFiles/cutable.dir/includes_C.rsp
 CMakeFiles/cutable.dir/src/glad.c.obj: D:/minecraft/src/glad.c
 CMakeFiles/cutable.dir/src/glad.c.obj: CMakeFiles/cutable.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\minecraft\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/cutable.dir/src/glad.c.obj"
-	"D:\msys(c++ compiler)\ucrt64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cutable.dir/src/glad.c.obj -MF CMakeFiles\cutable.dir\src\glad.c.obj.d -o CMakeFiles\cutable.dir\src\glad.c.obj -c D:\minecraft\src\glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\minecraft\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/cutable.dir/src/glad.c.obj"
+	D:\cppCompiler\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/cutable.dir/src/glad.c.obj -MF CMakeFiles\cutable.dir\src\glad.c.obj.d -o CMakeFiles\cutable.dir\src\glad.c.obj -c D:\minecraft\src\glad.c
 
 CMakeFiles/cutable.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/cutable.dir/src/glad.c.i"
-	"D:\msys(c++ compiler)\ucrt64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\minecraft\src\glad.c > CMakeFiles\cutable.dir\src\glad.c.i
+	D:\cppCompiler\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\minecraft\src\glad.c > CMakeFiles\cutable.dir\src\glad.c.i
 
 CMakeFiles/cutable.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/cutable.dir/src/glad.c.s"
-	"D:\msys(c++ compiler)\ucrt64\bin\gcc.exe" $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\minecraft\src\glad.c -o CMakeFiles\cutable.dir\src\glad.c.s
+	D:\cppCompiler\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\minecraft\src\glad.c -o CMakeFiles\cutable.dir\src\glad.c.s
 
-CMakeFiles/cutable.dir/src/main.cpp.obj: CMakeFiles/cutable.dir/flags.make
-CMakeFiles/cutable.dir/src/main.cpp.obj: CMakeFiles/cutable.dir/includes_CXX.rsp
-CMakeFiles/cutable.dir/src/main.cpp.obj: D:/minecraft/src/main.cpp
-CMakeFiles/cutable.dir/src/main.cpp.obj: CMakeFiles/cutable.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\minecraft\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cutable.dir/src/main.cpp.obj"
-	"D:\msys(c++ compiler)\ucrt64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cutable.dir/src/main.cpp.obj -MF CMakeFiles\cutable.dir\src\main.cpp.obj.d -o CMakeFiles\cutable.dir\src\main.cpp.obj -c D:\minecraft\src\main.cpp
+CMakeFiles/cutable.dir/src/rendering/shader.cpp.obj: CMakeFiles/cutable.dir/flags.make
+CMakeFiles/cutable.dir/src/rendering/shader.cpp.obj: CMakeFiles/cutable.dir/includes_CXX.rsp
+CMakeFiles/cutable.dir/src/rendering/shader.cpp.obj: D:/minecraft/src/rendering/shader.cpp
+CMakeFiles/cutable.dir/src/rendering/shader.cpp.obj: CMakeFiles/cutable.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\minecraft\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cutable.dir/src/rendering/shader.cpp.obj"
+	D:\cppCompiler\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cutable.dir/src/rendering/shader.cpp.obj -MF CMakeFiles\cutable.dir\src\rendering\shader.cpp.obj.d -o CMakeFiles\cutable.dir\src\rendering\shader.cpp.obj -c D:\minecraft\src\rendering\shader.cpp
 
-CMakeFiles/cutable.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cutable.dir/src/main.cpp.i"
-	"D:\msys(c++ compiler)\ucrt64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\minecraft\src\main.cpp > CMakeFiles\cutable.dir\src\main.cpp.i
+CMakeFiles/cutable.dir/src/rendering/shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/cutable.dir/src/rendering/shader.cpp.i"
+	D:\cppCompiler\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\minecraft\src\rendering\shader.cpp > CMakeFiles\cutable.dir\src\rendering\shader.cpp.i
 
-CMakeFiles/cutable.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cutable.dir/src/main.cpp.s"
-	"D:\msys(c++ compiler)\ucrt64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\minecraft\src\main.cpp -o CMakeFiles\cutable.dir\src\main.cpp.s
+CMakeFiles/cutable.dir/src/rendering/shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/cutable.dir/src/rendering/shader.cpp.s"
+	D:\cppCompiler\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\minecraft\src\rendering\shader.cpp -o CMakeFiles\cutable.dir\src\rendering\shader.cpp.s
 
 # Object files for target cutable
 cutable_OBJECTS = \
+"CMakeFiles/cutable.dir/src/game/main.cpp.obj" \
 "CMakeFiles/cutable.dir/src/glad.c.obj" \
-"CMakeFiles/cutable.dir/src/main.cpp.obj"
+"CMakeFiles/cutable.dir/src/rendering/shader.cpp.obj"
 
 # External object files for target cutable
 cutable_EXTERNAL_OBJECTS =
 
+cutable.exe: CMakeFiles/cutable.dir/src/game/main.cpp.obj
 cutable.exe: CMakeFiles/cutable.dir/src/glad.c.obj
-cutable.exe: CMakeFiles/cutable.dir/src/main.cpp.obj
+cutable.exe: CMakeFiles/cutable.dir/src/rendering/shader.cpp.obj
 cutable.exe: CMakeFiles/cutable.dir/build.make
 cutable.exe: CMakeFiles/cutable.dir/linkLibs.rsp
 cutable.exe: CMakeFiles/cutable.dir/objects1.rsp
 cutable.exe: CMakeFiles/cutable.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\minecraft\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable cutable.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\minecraft\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable cutable.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cutable.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
