@@ -200,6 +200,30 @@ src/rendering/shader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cutable.dir\build.make CMakeFiles/cutable.dir/src/rendering/shader.cpp.s
 .PHONY : src/rendering/shader.cpp.s
 
+src/rendering/textures.obj: src/rendering/textures.cpp.obj
+.PHONY : src/rendering/textures.obj
+
+# target to build an object file
+src/rendering/textures.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cutable.dir\build.make CMakeFiles/cutable.dir/src/rendering/textures.cpp.obj
+.PHONY : src/rendering/textures.cpp.obj
+
+src/rendering/textures.i: src/rendering/textures.cpp.i
+.PHONY : src/rendering/textures.i
+
+# target to preprocess a source file
+src/rendering/textures.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cutable.dir\build.make CMakeFiles/cutable.dir/src/rendering/textures.cpp.i
+.PHONY : src/rendering/textures.cpp.i
+
+src/rendering/textures.s: src/rendering/textures.cpp.s
+.PHONY : src/rendering/textures.s
+
+# target to generate assembly for a file
+src/rendering/textures.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cutable.dir\build.make CMakeFiles/cutable.dir/src/rendering/textures.cpp.s
+.PHONY : src/rendering/textures.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -218,6 +242,9 @@ help:
 	@echo ... src/rendering/shader.obj
 	@echo ... src/rendering/shader.i
 	@echo ... src/rendering/shader.s
+	@echo ... src/rendering/textures.obj
+	@echo ... src/rendering/textures.i
+	@echo ... src/rendering/textures.s
 .PHONY : help
 
 

@@ -4,7 +4,7 @@
         {
             "label": "build and run",
             "type": "shell",
-            "command": "g++ src/*.cpp src/glad.c -Iinclude -Llib -lglfw3dll -lopengl32 -lgdi32 -o cutable.exe; if ($?) { Start-Process .\\cutable.exe }",
+            "command": "g++ -O0 -g src/*.cpp src/glad.c -Iinclude -Llib -lglfw3dll -lopengl32 -lgdi32 -o cutable.exe; if ($?) { Start-Process .\\cutable.exe }",
             "group": {
                 "kind": "build",
                 "isDefault": true

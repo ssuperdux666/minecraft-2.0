@@ -9,6 +9,8 @@ CMakeFiles/cutable.dir/src/game/main.cpp.obj: D:/minecraft/src/game/main.cpp \
   D:/cppCompiler/ucrt64/include/_mingw_secapi.h \
   D:/cppCompiler/ucrt64/include/_mingw_stat64.h \
   D:/cppCompiler/ucrt64/include/_timeval.h \
+  D:/cppCompiler/ucrt64/include/assert.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/array \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/backward/binders.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bit \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/alloc_traits.h \
@@ -23,6 +25,7 @@ CMakeFiles/cutable.dir/src/game/main.cpp.obj: D:/minecraft/src/game/main.cpp \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/cpp_type_traits.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/cxxabi_forced.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/cxxabi_init_exception.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/enable_special_members.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/erase_if.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/exception.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/exception_defines.h \
@@ -30,6 +33,8 @@ CMakeFiles/cutable.dir/src/game/main.cpp.obj: D:/minecraft/src/game/main.cpp \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/functexcept.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/functional_hash.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/hash_bytes.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/hashtable.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/hashtable_policy.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/invoke.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/ios_base.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/istream.tcc \
@@ -45,6 +50,7 @@ CMakeFiles/cutable.dir/src/game/main.cpp.obj: D:/minecraft/src/game/main.cpp \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/new_allocator.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/new_except.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/new_throw.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/node_handle.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/ostream.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/ostream.tcc \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/ostream_insert.h \
@@ -53,48 +59,66 @@ CMakeFiles/cutable.dir/src/game/main.cpp.obj: D:/minecraft/src/game/main.cpp \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/predefined_ops.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/ptr_traits.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/range_access.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/refwrap.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/requires_hosted.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/specfun.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/std_abs.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/std_function.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stdexcept_except.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stdexcept_throw.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stdexcept_throwfwd.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_algobase.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_bvector.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_construct.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_function.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_iterator.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_iterator_base_funcs.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_iterator_base_types.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_pair.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_uninitialized.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_vector.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/streambuf.tcc \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/streambuf_iterator.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/string_view.tcc \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stringfwd.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/unordered_map.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/uses_allocator.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/uses_allocator_args.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/utility.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/vector.tcc \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/version.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/cassert \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/cctype \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/cerrno \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/cfloat \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/climits \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/clocale \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/cmath \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/compare \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/concepts \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/cstddef \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/cstdint \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/cstdio \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/cstdlib \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/cstring \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/cwchar \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/cwctype \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/debug/assertions.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/debug/debug.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/exception \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/ext/aligned_buffer.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/ext/alloc_traits.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/ext/atomicity.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/ext/numeric_traits.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/ext/string_conversions.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/ext/type_traits.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/functional \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/initializer_list \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/ios \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/iosfwd \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/iostream \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/istream \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/limits \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/new \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/ostream \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/pstl/pstl_config.h \
@@ -104,9 +128,23 @@ CMakeFiles/cutable.dir/src/game/main.cpp.obj: D:/minecraft/src/game/main.cpp \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/string \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/string_view \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/system_error \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/bessel_function.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/beta_function.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/ell_integral.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/exp_integral.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/gamma.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/hypergeometric.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/legendre_function.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/modified_bessel_func.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/poly_hermite.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/poly_laguerre.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/riemann_zeta.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/special_function_util.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/tuple \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/type_traits \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/typeinfo \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/unordered_map \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/vector \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
   D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -134,10 +172,12 @@ CMakeFiles/cutable.dir/src/game/main.cpp.obj: D:/minecraft/src/game/main.cpp \
   D:/cppCompiler/ucrt64/include/crtdefs.h \
   D:/cppCompiler/ucrt64/include/ctype.h \
   D:/cppCompiler/ucrt64/include/errno.h \
+  D:/cppCompiler/ucrt64/include/float.h \
   D:/cppCompiler/ucrt64/include/io.h \
   D:/cppCompiler/ucrt64/include/limits.h \
   D:/cppCompiler/ucrt64/include/locale.h \
   D:/cppCompiler/ucrt64/include/malloc.h \
+  D:/cppCompiler/ucrt64/include/math.h \
   D:/cppCompiler/ucrt64/include/process.h \
   D:/cppCompiler/ucrt64/include/pthread.h \
   D:/cppCompiler/ucrt64/include/pthread_compat.h \
@@ -159,6 +199,7 @@ CMakeFiles/cutable.dir/src/game/main.cpp.obj: D:/minecraft/src/game/main.cpp \
   D:/cppCompiler/ucrt64/include/vadefs.h \
   D:/cppCompiler/ucrt64/include/wchar.h \
   D:/cppCompiler/ucrt64/include/wctype.h \
+  D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/float.h \
   D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/limits.h \
   D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/mm_malloc.h \
   D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/stddef.h \
@@ -168,7 +209,190 @@ CMakeFiles/cutable.dir/src/game/main.cpp.obj: D:/minecraft/src/game/main.cpp \
   D:/minecraft/include/KHR/khrplatform.h \
   D:/minecraft/include/config/config.h \
   D:/minecraft/include/glad/glad.h \
-  D:/minecraft/include/rendering/shader.h
+  D:/minecraft/include/glm/common.hpp \
+  D:/minecraft/include/glm/detail/_fixes.hpp \
+  D:/minecraft/include/glm/detail/_vectorize.hpp \
+  D:/minecraft/include/glm/detail/compute_common.hpp \
+  D:/minecraft/include/glm/detail/compute_vector_decl.hpp \
+  D:/minecraft/include/glm/detail/compute_vector_relational.hpp \
+  D:/minecraft/include/glm/detail/func_common.inl \
+  D:/minecraft/include/glm/detail/func_exponential.inl \
+  D:/minecraft/include/glm/detail/func_geometric.inl \
+  D:/minecraft/include/glm/detail/func_integer.inl \
+  D:/minecraft/include/glm/detail/func_matrix.inl \
+  D:/minecraft/include/glm/detail/func_packing.inl \
+  D:/minecraft/include/glm/detail/func_trigonometric.inl \
+  D:/minecraft/include/glm/detail/func_vector_relational.inl \
+  D:/minecraft/include/glm/detail/qualifier.hpp \
+  D:/minecraft/include/glm/detail/setup.hpp \
+  D:/minecraft/include/glm/detail/type_float.hpp \
+  D:/minecraft/include/glm/detail/type_half.hpp \
+  D:/minecraft/include/glm/detail/type_half.inl \
+  D:/minecraft/include/glm/detail/type_mat2x2.hpp \
+  D:/minecraft/include/glm/detail/type_mat2x2.inl \
+  D:/minecraft/include/glm/detail/type_mat2x3.hpp \
+  D:/minecraft/include/glm/detail/type_mat2x3.inl \
+  D:/minecraft/include/glm/detail/type_mat2x4.hpp \
+  D:/minecraft/include/glm/detail/type_mat2x4.inl \
+  D:/minecraft/include/glm/detail/type_mat3x2.hpp \
+  D:/minecraft/include/glm/detail/type_mat3x2.inl \
+  D:/minecraft/include/glm/detail/type_mat3x3.hpp \
+  D:/minecraft/include/glm/detail/type_mat3x3.inl \
+  D:/minecraft/include/glm/detail/type_mat3x4.hpp \
+  D:/minecraft/include/glm/detail/type_mat3x4.inl \
+  D:/minecraft/include/glm/detail/type_mat4x2.hpp \
+  D:/minecraft/include/glm/detail/type_mat4x2.inl \
+  D:/minecraft/include/glm/detail/type_mat4x3.hpp \
+  D:/minecraft/include/glm/detail/type_mat4x3.inl \
+  D:/minecraft/include/glm/detail/type_mat4x4.hpp \
+  D:/minecraft/include/glm/detail/type_mat4x4.inl \
+  D:/minecraft/include/glm/detail/type_quat.hpp \
+  D:/minecraft/include/glm/detail/type_quat.inl \
+  D:/minecraft/include/glm/detail/type_vec1.hpp \
+  D:/minecraft/include/glm/detail/type_vec1.inl \
+  D:/minecraft/include/glm/detail/type_vec2.hpp \
+  D:/minecraft/include/glm/detail/type_vec2.inl \
+  D:/minecraft/include/glm/detail/type_vec3.hpp \
+  D:/minecraft/include/glm/detail/type_vec3.inl \
+  D:/minecraft/include/glm/detail/type_vec4.hpp \
+  D:/minecraft/include/glm/detail/type_vec4.inl \
+  D:/minecraft/include/glm/exponential.hpp \
+  D:/minecraft/include/glm/ext/matrix_clip_space.hpp \
+  D:/minecraft/include/glm/ext/matrix_clip_space.inl \
+  D:/minecraft/include/glm/ext/matrix_double2x2.hpp \
+  D:/minecraft/include/glm/ext/matrix_double2x2_precision.hpp \
+  D:/minecraft/include/glm/ext/matrix_double2x3.hpp \
+  D:/minecraft/include/glm/ext/matrix_double2x3_precision.hpp \
+  D:/minecraft/include/glm/ext/matrix_double2x4.hpp \
+  D:/minecraft/include/glm/ext/matrix_double2x4_precision.hpp \
+  D:/minecraft/include/glm/ext/matrix_double3x2.hpp \
+  D:/minecraft/include/glm/ext/matrix_double3x2_precision.hpp \
+  D:/minecraft/include/glm/ext/matrix_double3x3.hpp \
+  D:/minecraft/include/glm/ext/matrix_double3x3_precision.hpp \
+  D:/minecraft/include/glm/ext/matrix_double3x4.hpp \
+  D:/minecraft/include/glm/ext/matrix_double3x4_precision.hpp \
+  D:/minecraft/include/glm/ext/matrix_double4x2.hpp \
+  D:/minecraft/include/glm/ext/matrix_double4x2_precision.hpp \
+  D:/minecraft/include/glm/ext/matrix_double4x3.hpp \
+  D:/minecraft/include/glm/ext/matrix_double4x3_precision.hpp \
+  D:/minecraft/include/glm/ext/matrix_double4x4.hpp \
+  D:/minecraft/include/glm/ext/matrix_double4x4_precision.hpp \
+  D:/minecraft/include/glm/ext/matrix_float2x2.hpp \
+  D:/minecraft/include/glm/ext/matrix_float2x2_precision.hpp \
+  D:/minecraft/include/glm/ext/matrix_float2x3.hpp \
+  D:/minecraft/include/glm/ext/matrix_float2x3_precision.hpp \
+  D:/minecraft/include/glm/ext/matrix_float2x4.hpp \
+  D:/minecraft/include/glm/ext/matrix_float2x4_precision.hpp \
+  D:/minecraft/include/glm/ext/matrix_float3x2.hpp \
+  D:/minecraft/include/glm/ext/matrix_float3x2_precision.hpp \
+  D:/minecraft/include/glm/ext/matrix_float3x3.hpp \
+  D:/minecraft/include/glm/ext/matrix_float3x3_precision.hpp \
+  D:/minecraft/include/glm/ext/matrix_float3x4.hpp \
+  D:/minecraft/include/glm/ext/matrix_float3x4_precision.hpp \
+  D:/minecraft/include/glm/ext/matrix_float4x2.hpp \
+  D:/minecraft/include/glm/ext/matrix_float4x2_precision.hpp \
+  D:/minecraft/include/glm/ext/matrix_float4x3.hpp \
+  D:/minecraft/include/glm/ext/matrix_float4x3_precision.hpp \
+  D:/minecraft/include/glm/ext/matrix_float4x4.hpp \
+  D:/minecraft/include/glm/ext/matrix_float4x4_precision.hpp \
+  D:/minecraft/include/glm/ext/matrix_projection.hpp \
+  D:/minecraft/include/glm/ext/matrix_projection.inl \
+  D:/minecraft/include/glm/ext/matrix_transform.hpp \
+  D:/minecraft/include/glm/ext/matrix_transform.inl \
+  D:/minecraft/include/glm/ext/quaternion_common.hpp \
+  D:/minecraft/include/glm/ext/quaternion_common.inl \
+  D:/minecraft/include/glm/ext/quaternion_double.hpp \
+  D:/minecraft/include/glm/ext/quaternion_double_precision.hpp \
+  D:/minecraft/include/glm/ext/quaternion_float.hpp \
+  D:/minecraft/include/glm/ext/quaternion_float_precision.hpp \
+  D:/minecraft/include/glm/ext/quaternion_geometric.hpp \
+  D:/minecraft/include/glm/ext/quaternion_geometric.inl \
+  D:/minecraft/include/glm/ext/quaternion_relational.hpp \
+  D:/minecraft/include/glm/ext/quaternion_relational.inl \
+  D:/minecraft/include/glm/ext/quaternion_transform.hpp \
+  D:/minecraft/include/glm/ext/quaternion_transform.inl \
+  D:/minecraft/include/glm/ext/quaternion_trigonometric.hpp \
+  D:/minecraft/include/glm/ext/quaternion_trigonometric.inl \
+  D:/minecraft/include/glm/ext/scalar_constants.hpp \
+  D:/minecraft/include/glm/ext/scalar_constants.inl \
+  D:/minecraft/include/glm/ext/scalar_int_sized.hpp \
+  D:/minecraft/include/glm/ext/scalar_uint_sized.hpp \
+  D:/minecraft/include/glm/ext/vector_bool1.hpp \
+  D:/minecraft/include/glm/ext/vector_bool1_precision.hpp \
+  D:/minecraft/include/glm/ext/vector_bool2.hpp \
+  D:/minecraft/include/glm/ext/vector_bool2_precision.hpp \
+  D:/minecraft/include/glm/ext/vector_bool3.hpp \
+  D:/minecraft/include/glm/ext/vector_bool3_precision.hpp \
+  D:/minecraft/include/glm/ext/vector_bool4.hpp \
+  D:/minecraft/include/glm/ext/vector_bool4_precision.hpp \
+  D:/minecraft/include/glm/ext/vector_double1.hpp \
+  D:/minecraft/include/glm/ext/vector_double1_precision.hpp \
+  D:/minecraft/include/glm/ext/vector_double2.hpp \
+  D:/minecraft/include/glm/ext/vector_double2_precision.hpp \
+  D:/minecraft/include/glm/ext/vector_double3.hpp \
+  D:/minecraft/include/glm/ext/vector_double3_precision.hpp \
+  D:/minecraft/include/glm/ext/vector_double4.hpp \
+  D:/minecraft/include/glm/ext/vector_double4_precision.hpp \
+  D:/minecraft/include/glm/ext/vector_float1.hpp \
+  D:/minecraft/include/glm/ext/vector_float1_precision.hpp \
+  D:/minecraft/include/glm/ext/vector_float2.hpp \
+  D:/minecraft/include/glm/ext/vector_float2_precision.hpp \
+  D:/minecraft/include/glm/ext/vector_float3.hpp \
+  D:/minecraft/include/glm/ext/vector_float3_precision.hpp \
+  D:/minecraft/include/glm/ext/vector_float4.hpp \
+  D:/minecraft/include/glm/ext/vector_float4_precision.hpp \
+  D:/minecraft/include/glm/ext/vector_int1.hpp \
+  D:/minecraft/include/glm/ext/vector_int1_sized.hpp \
+  D:/minecraft/include/glm/ext/vector_int2.hpp \
+  D:/minecraft/include/glm/ext/vector_int2_sized.hpp \
+  D:/minecraft/include/glm/ext/vector_int3.hpp \
+  D:/minecraft/include/glm/ext/vector_int3_sized.hpp \
+  D:/minecraft/include/glm/ext/vector_int4.hpp \
+  D:/minecraft/include/glm/ext/vector_int4_sized.hpp \
+  D:/minecraft/include/glm/ext/vector_relational.hpp \
+  D:/minecraft/include/glm/ext/vector_relational.inl \
+  D:/minecraft/include/glm/ext/vector_uint1.hpp \
+  D:/minecraft/include/glm/ext/vector_uint1_sized.hpp \
+  D:/minecraft/include/glm/ext/vector_uint2.hpp \
+  D:/minecraft/include/glm/ext/vector_uint2_sized.hpp \
+  D:/minecraft/include/glm/ext/vector_uint3.hpp \
+  D:/minecraft/include/glm/ext/vector_uint3_sized.hpp \
+  D:/minecraft/include/glm/ext/vector_uint4.hpp \
+  D:/minecraft/include/glm/ext/vector_uint4_sized.hpp \
+  D:/minecraft/include/glm/fwd.hpp \
+  D:/minecraft/include/glm/geometric.hpp \
+  D:/minecraft/include/glm/glm.hpp \
+  D:/minecraft/include/glm/gtc/constants.hpp \
+  D:/minecraft/include/glm/gtc/constants.inl \
+  D:/minecraft/include/glm/gtc/epsilon.hpp \
+  D:/minecraft/include/glm/gtc/epsilon.inl \
+  D:/minecraft/include/glm/gtc/matrix_transform.hpp \
+  D:/minecraft/include/glm/gtc/matrix_transform.inl \
+  D:/minecraft/include/glm/gtc/quaternion.hpp \
+  D:/minecraft/include/glm/gtc/quaternion.inl \
+  D:/minecraft/include/glm/gtc/type_ptr.hpp \
+  D:/minecraft/include/glm/gtc/type_ptr.inl \
+  D:/minecraft/include/glm/gtc/vec1.hpp \
+  D:/minecraft/include/glm/integer.hpp \
+  D:/minecraft/include/glm/mat2x2.hpp \
+  D:/minecraft/include/glm/mat2x3.hpp \
+  D:/minecraft/include/glm/mat2x4.hpp \
+  D:/minecraft/include/glm/mat3x2.hpp \
+  D:/minecraft/include/glm/mat3x3.hpp \
+  D:/minecraft/include/glm/mat3x4.hpp \
+  D:/minecraft/include/glm/mat4x2.hpp \
+  D:/minecraft/include/glm/mat4x3.hpp \
+  D:/minecraft/include/glm/mat4x4.hpp \
+  D:/minecraft/include/glm/matrix.hpp \
+  D:/minecraft/include/glm/packing.hpp \
+  D:/minecraft/include/glm/simd/platform.h \
+  D:/minecraft/include/glm/trigonometric.hpp \
+  D:/minecraft/include/glm/vec2.hpp \
+  D:/minecraft/include/glm/vec3.hpp \
+  D:/minecraft/include/glm/vec4.hpp \
+  D:/minecraft/include/glm/vector_relational.hpp \
+  D:/minecraft/include/rendering/shader.h \
+  D:/minecraft/include/rendering/textures.h
 
 CMakeFiles/cutable.dir/src/glad.c.obj: D:/minecraft/src/glad.c \
   D:/cppCompiler/ucrt64/include/_bsd_types.h \
@@ -635,66 +859,264 @@ CMakeFiles/cutable.dir/src/rendering/shader.cpp.obj: D:/minecraft/src/rendering/
   D:/minecraft/include/glad/glad.h \
   D:/minecraft/include/rendering/shader.h
 
+CMakeFiles/cutable.dir/src/rendering/textures.cpp.obj: D:/minecraft/src/rendering/textures.cpp \
+  D:/cppCompiler/ucrt64/include/_mingw.h \
+  D:/cppCompiler/ucrt64/include/_mingw_locale.h \
+  D:/cppCompiler/ucrt64/include/_mingw_mac.h \
+  D:/cppCompiler/ucrt64/include/_mingw_off_t.h \
+  D:/cppCompiler/ucrt64/include/_mingw_secapi.h \
+  D:/cppCompiler/ucrt64/include/_mingw_stat64.h \
+  D:/cppCompiler/ucrt64/include/_mingw_stdarg.h \
+  D:/cppCompiler/ucrt64/include/_timeval.h \
+  D:/cppCompiler/ucrt64/include/assert.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/backward/binders.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bit \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/alloc_traits.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/allocator.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/basic_ios.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/basic_ios.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/basic_string.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/basic_string.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/char_traits.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/charconv.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/concept_check.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/cpp_type_traits.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/cxxabi_forced.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/cxxabi_init_exception.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/erase_if.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/exception.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/exception_defines.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/exception_ptr.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/functexcept.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/functional_hash.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/hash_bytes.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/invoke.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/ios_base.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/istream.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/locale_classes.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/locale_classes.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/locale_facets.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/locale_facets.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/localefwd.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/memory_resource.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/memoryfwd.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/move.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/nested_exception.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/new_allocator.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/new_except.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/new_throw.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/ostream.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/ostream.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/ostream_insert.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/ostream_print.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/postypes.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/predefined_ops.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/ptr_traits.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/range_access.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/requires_hosted.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/specfun.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/std_abs.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stdexcept_except.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stdexcept_throw.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stdexcept_throwfwd.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_algobase.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_construct.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_function.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_iterator.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_iterator_base_funcs.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_iterator_base_types.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_pair.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/streambuf.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/streambuf_iterator.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/string_view.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stringfwd.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/uses_allocator.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/uses_allocator_args.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/utility.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/version.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/cctype \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/cerrno \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/clocale \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/cmath \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/concepts \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/cstddef \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/cstdio \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/cstdlib \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/cwchar \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/cwctype \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/debug/assertions.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/debug/debug.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/exception \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/ext/alloc_traits.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/ext/atomicity.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/ext/numeric_traits.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/ext/string_conversions.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/ext/type_traits.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/initializer_list \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/ios \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/iosfwd \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/iostream \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/istream \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/limits \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/math.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/new \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/ostream \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/pstl/pstl_config.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/stdexcept \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/stdlib.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/streambuf \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/string \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/string_view \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/system_error \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/bessel_function.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/beta_function.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/ell_integral.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/exp_integral.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/gamma.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/hypergeometric.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/legendre_function.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/modified_bessel_func.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/poly_hermite.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/poly_laguerre.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/riemann_zeta.tcc \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/special_function_util.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/tuple \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/type_traits \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/typeinfo \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/atomic_word.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/c++config.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/c++locale.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/ctype_base.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/ctype_inline.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/error_constants.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/gthr.h \
+  D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+  D:/cppCompiler/ucrt64/include/corecrt.h \
+  D:/cppCompiler/ucrt64/include/corecrt_memory.h \
+  D:/cppCompiler/ucrt64/include/corecrt_startup.h \
+  D:/cppCompiler/ucrt64/include/corecrt_stdio_config.h \
+  D:/cppCompiler/ucrt64/include/corecrt_wconio.h \
+  D:/cppCompiler/ucrt64/include/corecrt_wctype.h \
+  D:/cppCompiler/ucrt64/include/corecrt_wdirect.h \
+  D:/cppCompiler/ucrt64/include/corecrt_wio.h \
+  D:/cppCompiler/ucrt64/include/corecrt_wprocess.h \
+  D:/cppCompiler/ucrt64/include/corecrt_wstdio.h \
+  D:/cppCompiler/ucrt64/include/corecrt_wstdlib.h \
+  D:/cppCompiler/ucrt64/include/corecrt_wstring.h \
+  D:/cppCompiler/ucrt64/include/corecrt_wtime.h \
+  D:/cppCompiler/ucrt64/include/crtdefs.h \
+  D:/cppCompiler/ucrt64/include/ctype.h \
+  D:/cppCompiler/ucrt64/include/errno.h \
+  D:/cppCompiler/ucrt64/include/io.h \
+  D:/cppCompiler/ucrt64/include/limits.h \
+  D:/cppCompiler/ucrt64/include/locale.h \
+  D:/cppCompiler/ucrt64/include/malloc.h \
+  D:/cppCompiler/ucrt64/include/math.h \
+  D:/cppCompiler/ucrt64/include/process.h \
+  D:/cppCompiler/ucrt64/include/pthread.h \
+  D:/cppCompiler/ucrt64/include/pthread_compat.h \
+  D:/cppCompiler/ucrt64/include/pthread_signal.h \
+  D:/cppCompiler/ucrt64/include/pthread_time.h \
+  D:/cppCompiler/ucrt64/include/pthread_unistd.h \
+  D:/cppCompiler/ucrt64/include/sched.h \
+  D:/cppCompiler/ucrt64/include/signal.h \
+  D:/cppCompiler/ucrt64/include/stdarg.h \
+  D:/cppCompiler/ucrt64/include/stddef.h \
+  D:/cppCompiler/ucrt64/include/stdint.h \
+  D:/cppCompiler/ucrt64/include/stdio.h \
+  D:/cppCompiler/ucrt64/include/stdlib.h \
+  D:/cppCompiler/ucrt64/include/string.h \
+  D:/cppCompiler/ucrt64/include/swprintf.inl \
+  D:/cppCompiler/ucrt64/include/sys/stat.h \
+  D:/cppCompiler/ucrt64/include/sys/timeb.h \
+  D:/cppCompiler/ucrt64/include/sys/types.h \
+  D:/cppCompiler/ucrt64/include/time.h \
+  D:/cppCompiler/ucrt64/include/vadefs.h \
+  D:/cppCompiler/ucrt64/include/wchar.h \
+  D:/cppCompiler/ucrt64/include/wctype.h \
+  D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/emmintrin.h \
+  D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/limits.h \
+  D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/mm_malloc.h \
+  D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/mmintrin.h \
+  D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/stdarg.h \
+  D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/stddef.h \
+  D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/stdint.h \
+  D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/syslimits.h \
+  D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/xmmintrin.h \
+  D:/minecraft/include/KHR/khrplatform.h \
+  D:/minecraft/include/glad/glad.h \
+  D:/minecraft/include/rendering/imageRendering/stb_image.h \
+  D:/minecraft/include/rendering/textures.h
+
+
+D:/minecraft/src/rendering/textures.cpp:
 
 D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/c++io.h:
 
-D:/cppCompiler/ucrt64/include/c++/16.2.0/fstream:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/basic_file.h:
 
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/sstream.tcc:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/fstream:
 
 D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/fstream.tcc:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/xtestintrin.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/xsavesintrin.h:
+D:/minecraft/src/rendering/shader.cpp:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/xsavecintrin.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/xmmintrin.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/codecvt.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/x86intrin.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/xopintrin.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/x86gprintrin.h:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/wbnoinvdintrin.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/waitpkgintrin.h:
-
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/vpclmulqdqintrin.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/usermsrintrin.h:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/uintrintrin.h:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/tsxldtrkintrin.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/tmmintrin.h:
-
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/stdarg.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/smmintrin.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/sm4intrin.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/sm3intrin.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/shaintrin.h:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/sha512intrin.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/serializeintrin.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/sgxintrin.h:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/rtmintrin.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/prfchwintrin.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/rdseedintrin.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/popcntintrin.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/raointintrin.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/mwaitxintrin.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/pkuintrin.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/pconfigintrin.h:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/mwaitintrin.h:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/movrsintrin.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/mmintrin.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/movdirintrin.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/mm3dnow.h:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/lwpintrin.h:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/keylockerintrin.h:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/ia32intrin.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/hresetintrin.h:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/gfniintrin.h:
 
@@ -706,45 +1128,43 @@ D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/fma4intrin.h:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/enqcmdintrin.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/cmpccxaddintrin.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/emmintrin.h:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/clzerointrin.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/cldemoteintrin.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/clflushoptintrin.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/tbmintrin.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/cldemoteintrin.h:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/cetintrin.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/bmiintrin.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/bmi2intrin.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/usermsrintrin.h:
-
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avxvnniintrin.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/clwbintrin.h:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avxvnniint8intrin.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vpopcntdqvlintrin.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avxintrin.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vpopcntdqintrin.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avxifmaintrin.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vpopcntdqvlintrin.h:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vp2intersectintrin.h:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vnnivlintrin.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vp2intersectvlintrin.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vnniintrin.h:
-
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vlintrin.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vbmivlintrin.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vlbwintrin.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/prfchiintrin.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vbmi2vlintrin.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vbmi2intrin.h:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512ifmavlintrin.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512fp16vlintrin.h:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512fp16intrin.h:
 
@@ -754,691 +1174,365 @@ D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512dqintrin.h
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512cdintrin.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512bwintrin.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512bmmintrin.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512bitalgintrin.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512bf16intrin.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx10_2minmaxintrin.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/lzcntintrin.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx10_2mediaintrin.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx10_2copyintrin.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx10_2convertintrin.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx10_2bf16intrin.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/amxint8intrin.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/amxfp16intrin.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/amxbf16intrin.h:
-
-D:/cppCompiler/ucrt64/include/winuser.h:
-
-D:/cppCompiler/ucrt64/include/winsvc.h:
-
-D:/cppCompiler/ucrt64/include/winspool.h:
-
-D:/cppCompiler/ucrt64/include/winsock.h:
-
-D:/cppCompiler/ucrt64/include/winsmcrd.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avxintrin.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vbmi2intrin.h:
-
-D:/cppCompiler/ucrt64/include/wingdi.h:
-
-D:/cppCompiler/ucrt64/include/winefs.h:
-
-D:/cppCompiler/ucrt64/include/windows.h:
-
-D:/cppCompiler/ucrt64/include/windef.h:
-
-D:/cppCompiler/ucrt64/include/wincrypt.h:
-
-D:/cppCompiler/ucrt64/include/wincontypes.h:
-
-D:/cppCompiler/ucrt64/include/winscard.h:
-
-D:/cppCompiler/ucrt64/include/wincon.h:
-
-D:/cppCompiler/ucrt64/include/winbase.h:
-
-D:/cppCompiler/ucrt64/include/winapifamily.h:
-
-D:/cppCompiler/ucrt64/include/virtdisk.h:
-
-D:/cppCompiler/ucrt64/include/winperf.h:
-
-D:/cppCompiler/ucrt64/include/utilapiset.h:
-
-D:/cppCompiler/ucrt64/include/urlmon.h:
-
-D:/cppCompiler/ucrt64/include/unknwn.h:
-
-D:/cppCompiler/ucrt64/include/tvout.h:
-
-D:/cppCompiler/ucrt64/include/timeapi.h:
-
-D:/cppCompiler/ucrt64/include/threadpoolapiset.h:
-
-D:/cppCompiler/ucrt64/include/wnnc.h:
-
-D:/cppCompiler/ucrt64/include/systemtopologyapi.h:
-
-D:/cppCompiler/ucrt64/include/sysinfoapi.h:
-
-D:/cppCompiler/ucrt64/include/synchapi.h:
-
-D:/cppCompiler/ucrt64/include/stringapiset.h:
-
-D:/cppCompiler/ucrt64/include/stdarg.h:
-
-D:/cppCompiler/ucrt64/include/specstrings.h:
-
-D:/cppCompiler/ucrt64/include/securitybaseapi.h:
-
-D:/cppCompiler/ucrt64/include/sdkddkver.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vldqintrin.h:
-
-D:/cppCompiler/ucrt64/include/sal.h:
-
-D:/cppCompiler/ucrt64/include/rpcsal.h:
-
-D:/cppCompiler/ucrt64/include/rpcndr.h:
-
-D:/cppCompiler/ucrt64/include/corecrt_wctype.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avxvnniint16intrin.h:
-
-D:/cppCompiler/ucrt64/include/bcrypt.h:
-
-D:/cppCompiler/ucrt64/include/string.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/amxtf32intrin.h:
-
-D:/cppCompiler/ucrt64/include/lzexpand.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx2intrin.h:
-
-D:/cppCompiler/ucrt64/include/corecrt_wprocess.h:
-
-D:/cppCompiler/ucrt64/include/shellapi.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/ext/atomicity.h:
-
-D:/cppCompiler/ucrt64/include/corecrt_memory.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/error_constants.h:
-
-D:/cppCompiler/ucrt64/include/excpt.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/os_defines.h:
+D:/minecraft/include/rendering/imageRendering/stb_image.h:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avxneconvertintrin.h:
 
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/string_view.tcc:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512bwintrin.h:
 
-D:/cppCompiler/ucrt64/include/_mingw_locale.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512bmmvlintrin.h:
 
-D:/cppCompiler/ucrt64/include/corecrt_wconio.h:
-
-D:/cppCompiler/ucrt64/include/consoleapi2.h:
-
-D:/cppCompiler/ucrt64/include/fileapi.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/raointintrin.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/ctype_base.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/cpu_defines.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/c++locale.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/tuple:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/exception_ptr.h:
-
-D:/cppCompiler/ucrt64/include/corecrt.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/string_view:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/istream:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vbmi2vlintrin.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/gthr-default.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/utility.h:
-
-D:/cppCompiler/ucrt64/include/corecrt_wio.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/initializer_list:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/ext/type_traits.h:
-
-D:/cppCompiler/ucrt64/include/rpcnterr.h:
-
-D:/cppCompiler/ucrt64/include/corecrt_startup.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/ostream:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/basic_file.h:
-
-D:/cppCompiler/ucrt64/include/vadefs.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/c++config.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx10_2satcvtintrin.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/memory_resource.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/stdlib.h:
-
-D:/cppCompiler/ucrt64/include/psdk_inc/intrin-impl.h:
-
-D:/cppCompiler/ucrt64/include/timezoneapi.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/ext/string_conversions.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/exception:
-
-D:/cppCompiler/ucrt64/include/reason.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/debug/assertions.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/cwctype:
-
-D:/cppCompiler/ucrt64/include/corecrt_stdio_config.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/basic_string.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/sstream:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/new_allocator.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512bf16vlintrin.h:
-
-D:/cppCompiler/ucrt64/include/stddef.h:
-
-D:/cppCompiler/ucrt64/include/winnt.h:
-
-D:/cppCompiler/ucrt64/include/stdio.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/amxtileintrin.h:
-
-D:/cppCompiler/ucrt64/include/mmiscapi2.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/backward/binders.h:
-
-D:/cppCompiler/ucrt64/include/psdk_inc/_wsadata.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/xopintrin.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/stdexcept:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/cstdio:
-
-D:/cppCompiler/ucrt64/include/stdint.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/wmmintrin.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/cstddef:
-
-D:/cppCompiler/ucrt64/include/datetimeapi.h:
-
-D:/cppCompiler/ucrt64/include/dlgs.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/concepts:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/mm_malloc.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/cctype:
-
-D:/cppCompiler/ucrt64/include/wtypesbase.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/version.h:
-
-D:/cppCompiler/ucrt64/include/rpcnsip.h:
-
-D:/cppCompiler/ucrt64/include/_mingw_unicode.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/atomic_word.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/cxxabi_forced.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512bmmintrin.h:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512bitalgvlintrin.h:
 
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/streambuf_iterator.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512bf16vlintrin.h:
 
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_iterator_base_types.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx10_2mediaintrin.h:
 
-D:/cppCompiler/ucrt64/include/c++/16.2.0/clocale:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx10_2satcvtintrin.h:
 
-D:/cppCompiler/ucrt64/include/limits.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/amxtileintrin.h:
 
-D:/cppCompiler/ucrt64/include/_mingw_stdarg.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/amxtf32intrin.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/amxcomplexintrin.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/amxfp8intrin.h:
 
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_iterator_base_funcs.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/amxfp16intrin.h:
 
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/hash_bytes.h:
+D:/minecraft/include/glm/exponential.hpp:
 
-D:/cppCompiler/ucrt64/include/rpcnsi.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/amxbf16intrin.h:
 
-D:/cppCompiler/ucrt64/include/pthread_compat.h:
+D:/minecraft/include/glm/detail/type_vec2.inl:
 
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/exception_defines.h:
+D:/minecraft/include/glm/detail/type_vec1.hpp:
 
-D:/cppCompiler/ucrt64/include/joystickapi.h:
+D:/minecraft/include/glm/detail/type_quat.hpp:
 
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/erase_if.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_construct.h:
 
-D:/cppCompiler/ucrt64/include/winioctl.h:
+D:/minecraft/include/glm/detail/type_mat4x2.inl:
 
-D:/cppCompiler/ucrt64/include/c++/16.2.0/string:
+D:/minecraft/include/glm/detail/type_mat3x4.inl:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/os_defines.h:
+
+D:/minecraft/include/glm/detail/type_mat3x3.inl:
+
+D:/minecraft/include/glm/detail/type_mat3x2.hpp:
+
+D:/minecraft/include/glm/mat3x3.hpp:
+
+D:/minecraft/include/glm/detail/type_mat2x4.hpp:
+
+D:/minecraft/include/glm/detail/type_half.inl:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/uses_allocator_args.h:
+
+D:/minecraft/include/glm/detail/type_half.hpp:
+
+D:/cppCompiler/ucrt64/include/nb30.h:
+
+D:/minecraft/include/glm/detail/setup.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/node_handle.h:
+
+D:/minecraft/include/glm/ext/vector_float3_precision.hpp:
+
+D:/minecraft/include/glm/detail/qualifier.hpp:
+
+D:/minecraft/include/glm/detail/func_vector_relational.inl:
+
+D:/cppCompiler/ucrt64/include/datetimeapi.h:
+
+D:/minecraft/include/glm/detail/func_packing.inl:
+
+D:/minecraft/include/glm/detail/func_matrix.inl:
+
+D:/minecraft/include/glm/detail/type_mat4x2.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/limits:
+
+D:/minecraft/include/glm/detail/func_geometric.inl:
+
+D:/minecraft/include/glm/ext/vector_uint4.hpp:
+
+D:/minecraft/include/glm/detail/type_float.hpp:
+
+D:/minecraft/include/glm/detail/_fixes.hpp:
+
+D:/minecraft/include/glm/common.hpp:
+
+D:/minecraft/include/glm/detail/_vectorize.hpp:
+
+D:/minecraft/include/glm/ext/vector_int1.hpp:
+
+D:/minecraft/include/config/config.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/new:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/syslimits.h:
+
+D:/cppCompiler/ucrt64/include/consoleapi3.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/stddef.h:
+
+D:/cppCompiler/ucrt64/include/wow64apiset.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/mmintrin.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/limits.h:
+
+D:/cppCompiler/ucrt64/include/sys/types.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/ios:
+
+D:/minecraft/include/glm/ext/vector_int1_sized.hpp:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/immintrin.h:
+
+D:/cppCompiler/ucrt64/include/sys/timeb.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/range_access.h:
+
+D:/minecraft/include/glm/ext/matrix_clip_space.hpp:
+
+D:/cppCompiler/ucrt64/include/stdlib.h:
+
+D:/cppCompiler/ucrt64/include/ole2.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/new_except.h:
+
+D:/cppCompiler/ucrt64/include/sched.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/xsaveoptintrin.h:
+
+D:/cppCompiler/ucrt64/include/pthread_signal.h:
+
+D:/cppCompiler/ucrt64/include/malloc.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/c++locale.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/streambuf:
+
+D:/minecraft/include/glm/detail/compute_vector_decl.hpp:
+
+D:/cppCompiler/ucrt64/include/pthread_unistd.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/bmiintrin.h:
+
+D:/cppCompiler/ucrt64/include/crtdefs.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/cwchar:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/amxavx512intrin.h:
+
+D:/cppCompiler/ucrt64/include/corecrt_wstdio.h:
 
 D:/cppCompiler/ucrt64/include/corecrt_wdirect.h:
 
 D:/cppCompiler/ucrt64/include/c++/16.2.0/ext/alloc_traits.h:
 
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/basic_string.tcc:
-
-D:/cppCompiler/ucrt64/include/concurrencysal.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/debug/debug.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/movdirintrin.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/allocator.h:
-
-D:/cppCompiler/ucrt64/include/winver.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/nested_exception.h:
-
-D:/cppCompiler/ucrt64/include/ole2.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/uses_allocator_args.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_function.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/streambuf.tcc:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/cxxabi_init_exception.h:
-
-D:/cppCompiler/ucrt64/include/_mingw.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/ext/numeric_traits.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/cpp_type_traits.h:
-
-D:/cppCompiler/ucrt64/include/pthread_time.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/codecvt.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/emmintrin.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bit:
-
-D:/cppCompiler/ucrt64/include/mciapi.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/sm4intrin.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/pstl/pstl_config.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stdexcept_throw.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/clflushoptintrin.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/concept_check.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vlbwintrin.h:
-
-D:/cppCompiler/ucrt64/include/swprintf.inl:
-
-D:/cppCompiler/ucrt64/include/_mingw_mac.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/cstdlib:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/alloc_traits.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/localefwd.h:
-
-D:/cppCompiler/ucrt64/include/_mingw_secapi.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/locale_classes.tcc:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/immintrin.h:
-
-D:/cppCompiler/ucrt64/include/psdk_inc/_ip_types.h:
-
-D:/cppCompiler/ucrt64/include/rpcdcep.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stringfwd.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/basic_ios.tcc:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/ios_base.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/ammintrin.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/charconv.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/locale_facets.h:
-
-D:/cppCompiler/ucrt64/include/winreg.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stdexcept_throwfwd.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/invoke.h:
-
-D:/cppCompiler/ucrt64/include/wtypes.h:
-
-D:/cppCompiler/ucrt64/include/propidl.h:
-
-D:/cppCompiler/ucrt64/include/time.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/sgxintrin.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/locale_classes.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/typeinfo:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/cerrno:
-
-D:/cppCompiler/ucrt64/include/winerror.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_iterator.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/char_traits.h:
-
-D:/cppCompiler/ucrt64/include/realtimeapiset.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/basic_ios.h:
-
-D:/cppCompiler/ucrt64/include/winnetwk.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/uses_allocator.h:
-
-D:/cppCompiler/ucrt64/include/io.h:
-
-D:/cppCompiler/ucrt64/include/_mingw_stat64.h:
-
-D:/cppCompiler/ucrt64/include/wctype.h:
-
-D:/cppCompiler/ucrt64/include/ktmtypes.h:
-
-D:/minecraft/src/game/main.cpp:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/locale_facets.tcc:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/memoryfwd.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/ctype_inline.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/prfchiintrin.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/move.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/postypes.h:
-
-D:/cppCompiler/ucrt64/include/locale.h:
-
-D:/cppCompiler/ucrt64/include/_mingw_off_t.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/f16cintrin.h:
-
-D:/cppCompiler/ucrt64/include/psdk_inc/_xmitfile.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/type_traits:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/c++allocator.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/functional_hash.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/gthr.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/std_abs.h:
-
-D:/minecraft/src/rendering/shader.cpp:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/ostream_insert.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/new_throw.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/ostream.h:
-
-D:/cppCompiler/ucrt64/include/psdk_inc/_fd_types.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vbmiintrin.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/predefined_ops.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512bmmvlintrin.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/ptr_traits.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/system_error:
-
-D:/cppCompiler/ucrt64/include/fibersapi.h:
-
-D:/cppCompiler/ucrt64/include/imm.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/requires_hosted.h:
-
-D:/cppCompiler/ucrt64/include/servprov.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_algobase.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_construct.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/amxavx512intrin.h:
-
-D:/cppCompiler/ucrt64/include/corecrt_wstdlib.h:
-
-D:/cppCompiler/ucrt64/include/corecrt_wstring.h:
-
-D:/cppCompiler/ucrt64/include/corecrt_wtime.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/cwchar:
-
-D:/cppCompiler/ucrt64/include/crtdefs.h:
-
-D:/cppCompiler/ucrt64/include/ctype.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_pair.h:
-
-D:/cppCompiler/ucrt64/include/playsoundapi.h:
-
-D:/cppCompiler/ucrt64/include/pthread_unistd.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/streambuf:
-
-D:/cppCompiler/ucrt64/include/errno.h:
-
-D:/cppCompiler/ucrt64/include/malloc.h:
-
-D:/cppCompiler/ucrt64/include/process.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/clwbintrin.h:
-
-D:/cppCompiler/ucrt64/include/pthread.h:
-
-D:/cppCompiler/ucrt64/include/pthread_signal.h:
-
-D:/cppCompiler/ucrt64/include/sched.h:
-
-D:/cppCompiler/ucrt64/include/_bsd_types.h:
-
-D:/cppCompiler/ucrt64/include/stdlib.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/amxfp8intrin.h:
-
-D:/cppCompiler/ucrt64/include/errhandlingapi.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/range_access.h:
-
-D:/cppCompiler/ucrt64/include/sys/stat.h:
-
-D:/cppCompiler/ucrt64/include/sys/timeb.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/mm3dnow.h:
-
-D:/cppCompiler/ucrt64/include/psdk_inc/_wsa_errnos.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/ios:
-
-D:/cppCompiler/ucrt64/include/sys/types.h:
-
-D:/cppCompiler/ucrt64/include/wchar.h:
-
-D:/cppCompiler/ucrt64/include/oleidl.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/shaintrin.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/adxintrin.h:
-
-D:/cppCompiler/ucrt64/include/threadpoollegacyapiset.h:
-
-D:/cppCompiler/ucrt64/include/psdk_inc/_ip_mreq1.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/limits.h:
-
-D:/cppCompiler/ucrt64/include/wow64apiset.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/stddef.h:
-
-D:/cppCompiler/ucrt64/include/consoleapi3.h:
-
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/syslimits.h:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/new:
-
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/istream.tcc:
-
-D:/minecraft/include/GLFW/glfw3.h:
-
-D:/minecraft/include/KHR/khrplatform.h:
-
-D:/minecraft/include/config/config.h:
-
-D:/minecraft/include/glad/glad.h:
-
-D:/cppCompiler/ucrt64/include/objbase.h:
+D:/cppCompiler/ucrt64/include/corecrt_stdio_config.h:
 
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/amxmovrsintrin.h:
 
-D:/cppCompiler/ucrt64/include/_timeval.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/std_abs.h:
 
-D:/minecraft/include/rendering/shader.h:
+D:/minecraft/include/glm/detail/type_mat2x2.hpp:
 
-D:/minecraft/src/glad.c:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/ctype_base.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/pconfigintrin.h:
+D:/minecraft/include/glm/ext/quaternion_float_precision.hpp:
 
-D:/cppCompiler/ucrt64/include/apiset.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/ctype_inline.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/vaesintrin.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/cpu_defines.h:
 
-D:/cppCompiler/ucrt64/include/processenv.h:
+D:/minecraft/include/glm/detail/type_mat3x2.inl:
 
-D:/cppCompiler/ucrt64/include/apisetcconv.h:
+D:/cppCompiler/ucrt64/include/pthread_time.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512ifmaintrin.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/ext/aligned_buffer.h:
 
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/new_except.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/c++allocator.h:
 
-D:/cppCompiler/ucrt64/include/signal.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/type_traits:
 
-D:/cppCompiler/ucrt64/include/basetsd.h:
+D:/cppCompiler/ucrt64/include/namedpipeapi.h:
 
-D:/cppCompiler/ucrt64/include/bemapiset.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/poly_laguerre.tcc:
 
-D:/cppCompiler/ucrt64/include/cderr.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/modified_bessel_func.tcc:
 
-D:/cppCompiler/ucrt64/include/cguid.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx10_2bf16intrin.h:
 
-D:/cppCompiler/ucrt64/include/combaseapi.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/legendre_function.tcc:
 
-D:/cppCompiler/ucrt64/include/oaidl.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/cerrno:
 
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/exception.h:
+D:/minecraft/include/glm/gtc/constants.inl:
 
-D:/cppCompiler/ucrt64/include/commdlg.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/string_view:
 
-D:/cppCompiler/ucrt64/include/consoleapi.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/beta_function.tcc:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/xsaveoptintrin.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/mm_malloc.h:
 
-D:/cppCompiler/ucrt64/include/dde.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/cctype:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/x86gprintrin.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/utility.h:
 
-D:/cppCompiler/ucrt64/include/ddeml.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/system_error:
 
-D:/cppCompiler/ucrt64/include/debugapi.h:
+D:/minecraft/include/glm/detail/compute_vector_relational.hpp:
 
-D:/cppCompiler/ucrt64/include/heapapi.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/ostream.h:
+
+D:/minecraft/include/glm/detail/type_mat4x4.inl:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/pstl/pstl_config.h:
+
+D:/minecraft/include/glm/detail/type_mat3x3.hpp:
+
+D:/minecraft/include/glm/ext/vector_double3.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/move.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/memoryfwd.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/locale_facets.tcc:
 
 D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stdexcept_except.h:
 
+D:/cppCompiler/ucrt64/include/corecrt_wtime.h:
+
 D:/cppCompiler/ucrt64/include/dpapi.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/pkuintrin.h:
+D:/cppCompiler/ucrt64/include/wctype.h:
 
-D:/cppCompiler/ucrt64/include/driverspecs.h:
+D:/cppCompiler/ucrt64/include/_mingw_stat64.h:
 
-D:/cppCompiler/ucrt64/include/ncrypt.h:
+D:/cppCompiler/ucrt64/include/io.h:
 
-D:/cppCompiler/ucrt64/include/winnls.h:
+D:/minecraft/include/glm/ext/quaternion_double.hpp:
 
-D:/cppCompiler/ucrt64/include/fltwinerror.h:
+D:/cppCompiler/ucrt64/include/winnetwk.h:
 
-D:/cppCompiler/ucrt64/include/guiddef.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_pair.h:
 
-D:/cppCompiler/ucrt64/include/corecrt_wstdio.h:
+D:/cppCompiler/ucrt64/include/corecrt_wstring.h:
 
-D:/cppCompiler/ucrt64/include/oleauto.h:
+D:/minecraft/include/glm/ext/vector_bool2_precision.hpp:
 
-D:/cppCompiler/ucrt64/include/inaddr.h:
+D:/cppCompiler/ucrt64/include/playsoundapi.h:
 
-D:/cppCompiler/ucrt64/include/ioapiset.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx10_2convertintrin.h:
 
-D:/cppCompiler/ucrt64/include/jobapi.h:
+D:/minecraft/include/GLFW/glfw3.h:
 
-D:/cppCompiler/ucrt64/include/stralign.h:
+D:/cppCompiler/ucrt64/include/pthread_compat.h:
 
-D:/cppCompiler/ucrt64/include/poppack.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vp2intersectvlintrin.h:
 
-D:/cppCompiler/ucrt64/include/libloaderapi.h:
+D:/cppCompiler/ucrt64/include/rpcnsi.h:
 
-D:/cppCompiler/ucrt64/include/mcx.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/hash_bytes.h:
 
-D:/cppCompiler/ucrt64/include/securityappcontainer.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/refwrap.h:
 
-D:/cppCompiler/ucrt64/include/handleapi.h:
+D:/minecraft/include/glm/ext/scalar_uint_sized.hpp:
 
-D:/cppCompiler/ucrt64/include/memoryapi.h:
+D:/minecraft/include/glm/gtc/matrix_transform.inl:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avxifmaintrin.h:
+D:/minecraft/include/glm/detail/type_vec3.inl:
 
-D:/cppCompiler/ucrt64/include/minwinbase.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/ammintrin.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/pmmintrin.h:
+D:/minecraft/include/glm/detail/type_mat2x3.hpp:
 
-D:/cppCompiler/ucrt64/include/minwindef.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/ostream_print.h:
 
-D:/cppCompiler/ucrt64/include/objidl.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/ostream_insert.h:
+
+D:/minecraft/include/glm/ext/vector_double2_precision.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/cassert:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/version.h:
+
+D:/minecraft/include/glm/detail/compute_common.hpp:
+
+D:/minecraft/include/glm/ext/vector_relational.hpp:
+
+D:/cppCompiler/ucrt64/include/wtypesbase.h:
+
+D:/cppCompiler/ucrt64/include/process.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/basic_ios.h:
+
+D:/cppCompiler/ucrt64/include/string.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/tmmintrin.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/cstdint:
+
+D:/cppCompiler/ucrt64/include/corecrt_wconio.h:
+
+D:/cppCompiler/ucrt64/include/consoleapi2.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avxvnniint16intrin.h:
+
+D:/cppCompiler/ucrt64/include/psdk_inc/intrin-impl.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/ext/string_conversions.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vnniintrin.h:
+
+D:/cppCompiler/ucrt64/include/timezoneapi.h:
+
+D:/cppCompiler/ucrt64/include/corecrt_memory.h:
+
+D:/cppCompiler/ucrt64/include/pshpack2.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/error_constants.h:
+
+D:/minecraft/include/glm/ext/matrix_double3x4_precision.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/iosfwd:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/xsaveintrin.h:
+
+D:/cppCompiler/ucrt64/include/objidlbase.h:
+
+D:/cppCompiler/ucrt64/include/_mingw_off_t.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/vector.tcc:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/locale_classes.tcc:
+
+D:/cppCompiler/ucrt64/include/_mingw_secapi.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/cstdlib:
+
+D:/minecraft/include/glm/detail/type_vec1.inl:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/localefwd.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/alloc_traits.h:
+
+D:/cppCompiler/ucrt64/include/_mingw_mac.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/serializeintrin.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/hashtable_policy.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/tuple:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/exception_ptr.h:
+
+D:/minecraft/include/glm/detail/func_trigonometric.inl:
 
 D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/ostream.tcc:
 
@@ -1446,60 +1540,836 @@ D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/functexcept.h:
 
 D:/cppCompiler/ucrt64/include/mmeapi.h:
 
-D:/cppCompiler/ucrt64/include/mmiscapi.h:
+D:/minecraft/include/glm/detail/type_vec4.hpp:
 
-D:/cppCompiler/ucrt64/include/mmsyscom.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bit:
 
-D:/cppCompiler/ucrt64/include/mmsystem.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/cpp_type_traits.h:
 
-D:/cppCompiler/ucrt64/include/namedpipeapi.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/backward/binders.h:
 
-D:/cppCompiler/ucrt64/include/psdk_inc/_socket_types.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/ext/numeric_traits.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/xsaveintrin.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/locale_classes.h:
 
-D:/cppCompiler/ucrt64/include/rpcdce.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/functional:
 
-D:/cppCompiler/ucrt64/include/msxml.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/locale_facets.h:
 
-D:/cppCompiler/ucrt64/include/interlockedapi.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/exception.h:
 
-D:/cppCompiler/ucrt64/include/namespaceapi.h:
+D:/cppCompiler/ucrt64/include/oaidl.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/sm3intrin.h:
+D:/cppCompiler/ucrt64/include/guiddef.h:
 
-D:/cppCompiler/ucrt64/include/pshpack4.h:
+D:/cppCompiler/ucrt64/include/_mingw.h:
 
-D:/cppCompiler/ucrt64/include/nb30.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/ell_integral.tcc:
 
-D:/cppCompiler/ucrt64/include/c++/16.2.0/iosfwd:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/cxxabi_init_exception.h:
 
-D:/cppCompiler/ucrt64/include/objidlbase.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/cmath:
 
-D:/cppCompiler/ucrt64/include/processthreadsapi.h:
+D:/cppCompiler/ucrt64/include/math.h:
 
-D:/cppCompiler/ucrt64/include/processtopologyapi.h:
+D:/minecraft/include/glm/ext/matrix_double3x3_precision.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/atomic_word.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/cxxabi_forced.h:
+
+D:/cppCompiler/ucrt64/include/corecrt_wio.h:
+
+D:/minecraft/include/glm/ext/matrix_transform.inl:
+
+D:/minecraft/include/glm/ext/matrix_double4x2.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_function.h:
+
+D:/minecraft/include/glm/gtc/type_ptr.hpp:
+
+D:/minecraft/include/glm/ext/scalar_int_sized.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/nested_exception.h:
+
+D:/cppCompiler/ucrt64/include/winver.h:
+
+D:/cppCompiler/ucrt64/include/assert.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vbmivlintrin.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/invoke.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/debug/debug.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/basic_string.tcc:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/enable_special_members.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/sstream:
+
+D:/minecraft/include/glm/detail/type_mat4x3.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/string:
+
+D:/minecraft/include/glm/ext/vector_double4.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/erase_if.h:
+
+D:/minecraft/include/glm/ext/vector_uint3_sized.hpp:
+
+D:/cppCompiler/ucrt64/include/windows.h:
+
+D:/cppCompiler/ucrt64/include/joystickapi.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/new_throw.h:
+
+D:/cppCompiler/ucrt64/include/corecrt_startup.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/ostream:
+
+D:/cppCompiler/ucrt64/include/rpcnterr.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/riemann_zeta.tcc:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/ext/atomicity.h:
+
+D:/cppCompiler/ucrt64/include/shellapi.h:
+
+D:/minecraft/include/KHR/khrplatform.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/c++config.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/memory_resource.h:
+
+D:/minecraft/include/glm/ext/matrix_double4x2_precision.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/unordered_map.h:
+
+D:/minecraft/include/glm/ext/quaternion_trigonometric.inl:
+
+D:/cppCompiler/ucrt64/include/consoleapi.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/hashtable.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/requires_hosted.h:
+
+D:/minecraft/include/glm/ext/matrix_double4x3_precision.hpp:
+
+D:/cppCompiler/ucrt64/include/imm.h:
+
+D:/minecraft/include/glm/detail/type_vec4.inl:
+
+D:/cppCompiler/ucrt64/include/time.h:
+
+D:/cppCompiler/ucrt64/include/propidl.h:
+
+D:/minecraft/include/rendering/textures.h:
+
+D:/cppCompiler/ucrt64/include/wtypes.h:
+
+D:/cppCompiler/ucrt64/include/corecrt.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/gamma.tcc:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/specfun.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/concept_check.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stdexcept_throw.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/f16cintrin.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_algobase.h:
+
+D:/cppCompiler/ucrt64/include/servprov.h:
+
+D:/cppCompiler/ucrt64/include/locale.h:
+
+D:/minecraft/include/glm/ext/matrix_double2x2_precision.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/postypes.h:
+
+D:/cppCompiler/ucrt64/include/winerror.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_bvector.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_iterator_base_funcs.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/amxcomplexintrin.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/char_traits.h:
+
+D:/cppCompiler/ucrt64/include/limits.h:
+
+D:/cppCompiler/ucrt64/include/corecrt_wctype.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/poly_hermite.tcc:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/uses_allocator.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/bessel_function.tcc:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_vector.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/streambuf_iterator.h:
+
+D:/cppCompiler/ucrt64/include/winreg.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/climits:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/x86intrin.h:
+
+D:/minecraft/include/glm/detail/type_mat2x3.inl:
+
+D:/minecraft/src/glad.c:
+
+D:/minecraft/include/glm/detail/type_mat2x2.inl:
+
+D:/minecraft/include/glm/ext/vector_float2_precision.hpp:
+
+D:/cppCompiler/ucrt64/include/oleauto.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/compare:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/tbmintrin.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stdexcept_throwfwd.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/concepts:
 
 D:/cppCompiler/ucrt64/include/c++/16.2.0/iostream:
 
 D:/cppCompiler/ucrt64/include/profileapi.h:
 
+D:/cppCompiler/ucrt64/include/_timeval.h:
+
+D:/minecraft/include/glad/glad.h:
+
+D:/minecraft/include/glm/ext/matrix_float4x3.hpp:
+
+D:/minecraft/include/rendering/shader.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/cstddef:
+
+D:/minecraft/include/glm/detail/type_mat4x3.inl:
+
+D:/cppCompiler/ucrt64/include/stdint.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/cstdio:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/stdexcept:
+
+D:/minecraft/src/game/main.cpp:
+
+D:/cppCompiler/ucrt64/include/stdio.h:
+
+D:/cppCompiler/ucrt64/include/basetsd.h:
+
+D:/minecraft/include/glm/ext/quaternion_geometric.inl:
+
+D:/cppCompiler/ucrt64/include/winnt.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_uninitialized.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/cwctype:
+
+D:/minecraft/include/glm/ext/quaternion_common.inl:
+
+D:/minecraft/include/glm/ext/vector_float1.hpp:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx2intrin.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/exception_defines.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/debug/assertions.h:
+
+D:/minecraft/include/glm/ext/vector_bool1.hpp:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/bmi2intrin.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx10_2copyintrin.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/streambuf.tcc:
+
+D:/minecraft/include/glm/ext/vector_float4_precision.hpp:
+
+D:/cppCompiler/ucrt64/include/signal.h:
+
+D:/minecraft/include/glm/detail/type_vec3.hpp:
+
 D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/stdint.h:
+
+D:/minecraft/include/glm/ext/matrix_double2x4_precision.hpp:
 
 D:/cppCompiler/ucrt64/include/prsht.h:
 
-D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/rdseedintrin.h:
+D:/minecraft/include/glm/glm.hpp:
 
-D:/cppCompiler/ucrt64/include/rpcasync.h:
+D:/cppCompiler/ucrt64/include/c++/16.2.0/ext/type_traits.h:
 
-D:/cppCompiler/ucrt64/include/unknwnbase.h:
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vldqintrin.h:
+
+D:/minecraft/include/glm/ext/scalar_constants.inl:
+
+D:/minecraft/include/glm/ext/vector_double1.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/initializer_list:
+
+D:/minecraft/include/glm/detail/func_exponential.inl:
+
+D:/minecraft/include/glm/detail/type_mat2x4.inl:
+
+D:/cppCompiler/ucrt64/include/corecrt_wstdlib.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/istream:
+
+D:/minecraft/include/glm/ext/matrix_double2x3_precision.hpp:
+
+D:/minecraft/include/glm/ext/matrix_clip_space.inl:
+
+D:/cppCompiler/ucrt64/include/errno.h:
+
+D:/minecraft/include/glm/ext/matrix_double2x2.hpp:
+
+D:/minecraft/include/glm/ext/matrix_double2x3.hpp:
+
+D:/minecraft/include/glm/ext/matrix_double2x4.hpp:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/smmintrin.h:
+
+D:/minecraft/include/glm/ext/matrix_double3x2_precision.hpp:
+
+D:/minecraft/include/glm/detail/type_mat3x4.hpp:
+
+D:/cppCompiler/ucrt64/include/utilapiset.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/hypergeometric.tcc:
+
+D:/cppCompiler/ucrt64/include/winperf.h:
+
+D:/minecraft/include/glm/ext/matrix_double3x3.hpp:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/lzcntintrin.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512bitalgintrin.h:
+
+D:/minecraft/include/glm/ext/matrix_double3x4.hpp:
+
+D:/minecraft/include/glm/ext/matrix_double4x3.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/std_function.h:
+
+D:/cppCompiler/ucrt64/include/tvout.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/stdlib.h:
+
+D:/minecraft/include/glm/ext/matrix_double4x4.hpp:
+
+D:/minecraft/include/glm/ext/matrix_float3x4.hpp:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/wmmintrin.h:
+
+D:/minecraft/include/glm/ext/matrix_double4x4_precision.hpp:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/xsavesintrin.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/mwaitxintrin.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/allocator.h:
+
+D:/minecraft/include/glm/ext/quaternion_transform.hpp:
+
+D:/minecraft/include/glm/ext/matrix_float2x2_precision.hpp:
+
+D:/minecraft/include/glm/ext/quaternion_geometric.hpp:
+
+D:/minecraft/include/glm/ext/matrix_float2x3.hpp:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/popcntintrin.h:
+
+D:/cppCompiler/ucrt64/include/stddef.h:
+
+D:/cppCompiler/ucrt64/include/timeapi.h:
+
+D:/minecraft/include/glm/detail/func_integer.inl:
+
+D:/minecraft/include/glm/ext/matrix_float2x3_precision.hpp:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/waitpkgintrin.h:
+
+D:/minecraft/include/glm/ext/matrix_float2x4.hpp:
+
+D:/cppCompiler/ucrt64/include/lzexpand.h:
+
+D:/minecraft/include/glm/ext/matrix_float2x4_precision.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/string_view.tcc:
+
+D:/minecraft/include/glm/ext/quaternion_relational.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/charconv.h:
+
+D:/minecraft/include/glm/ext/matrix_float3x2.hpp:
+
+D:/minecraft/include/glm/ext/matrix_float3x2_precision.hpp:
+
+D:/minecraft/include/glm/ext/matrix_float3x3.hpp:
+
+D:/minecraft/include/glm/ext/matrix_float3x3_precision.hpp:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/xtestintrin.h:
+
+D:/minecraft/include/glm/ext/vector_int2.hpp:
+
+D:/cppCompiler/ucrt64/include/processtopologyapi.h:
+
+D:/minecraft/include/glm/ext/matrix_float4x3_precision.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/istream.tcc:
+
+D:/cppCompiler/ucrt64/include/mmiscapi.h:
+
+D:/minecraft/include/glm/detail/type_quat.inl:
+
+D:/minecraft/include/glm/ext/matrix_float4x4_precision.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/ptr_traits.h:
+
+D:/cppCompiler/ucrt64/include/mmsystem.h:
+
+D:/minecraft/include/glm/gtc/quaternion.inl:
+
+D:/minecraft/include/glm/ext/matrix_projection.inl:
+
+D:/minecraft/include/glm/mat2x2.hpp:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/xmmintrin.h:
+
+D:/minecraft/include/glm/ext/matrix_transform.hpp:
+
+D:/cppCompiler/ucrt64/include/urlmon.h:
+
+D:/minecraft/include/glm/ext/quaternion_common.hpp:
+
+D:/minecraft/include/glm/ext/quaternion_double_precision.hpp:
+
+D:/cppCompiler/ucrt64/include/winsock.h:
+
+D:/cppCompiler/ucrt64/include/winspool.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx10_2minmaxintrin.h:
+
+D:/cppCompiler/ucrt64/include/vadefs.h:
+
+D:/minecraft/include/glm/ext/quaternion_float.hpp:
+
+D:/minecraft/include/glm/ext/quaternion_relational.inl:
+
+D:/minecraft/include/glm/ext/quaternion_transform.inl:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/vector:
+
+D:/cppCompiler/ucrt64/include/libloaderapi.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/ios_base.h:
+
+D:/minecraft/include/glm/ext/vector_uint4_sized.hpp:
+
+D:/cppCompiler/ucrt64/include/poppack.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/cstring:
+
+D:/cppCompiler/ucrt64/include/stralign.h:
+
+D:/minecraft/include/glm/ext/quaternion_trigonometric.hpp:
+
+D:/cppCompiler/ucrt64/include/winefs.h:
+
+D:/minecraft/include/glm/ext/scalar_constants.hpp:
+
+D:/minecraft/include/glm/ext/vector_bool1_precision.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/math.h:
+
+D:/minecraft/include/glm/mat3x2.hpp:
+
+D:/minecraft/include/glm/ext/vector_double4_precision.hpp:
+
+D:/cppCompiler/ucrt64/include/mcx.h:
+
+D:/minecraft/include/glm/ext/vector_bool2.hpp:
+
+D:/minecraft/include/glm/gtc/type_ptr.inl:
+
+D:/minecraft/include/glm/ext/vector_bool3.hpp:
+
+D:/cppCompiler/ucrt64/include/float.h:
+
+D:/cppCompiler/ucrt64/include/pshpack4.h:
+
+D:/minecraft/include/glm/ext/vector_bool4.hpp:
+
+D:/minecraft/include/glm/ext/vector_bool4_precision.hpp:
+
+D:/minecraft/include/glm/ext/vector_double2.hpp:
+
+D:/cppCompiler/ucrt64/include/corecrt_wprocess.h:
+
+D:/cppCompiler/ucrt64/include/_mingw_locale.h:
+
+D:/minecraft/include/glm/ext/matrix_float2x2.hpp:
+
+D:/minecraft/include/glm/ext/vector_double3_precision.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/gthr-default.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/array:
+
+D:/minecraft/include/glm/ext/vector_float1_precision.hpp:
+
+D:/minecraft/include/glm/ext/matrix_float3x4_precision.hpp:
+
+D:/cppCompiler/ucrt64/include/apisetcconv.h:
+
+D:/cppCompiler/ucrt64/include/processenv.h:
+
+D:/minecraft/include/glm/ext/vector_float2.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/new_allocator.h:
+
+D:/cppCompiler/ucrt64/include/fileapi.h:
+
+D:/minecraft/include/glm/ext/vector_float3.hpp:
+
+D:/minecraft/include/glm/ext/vector_float4.hpp:
+
+D:/minecraft/include/glm/ext/vector_int2_sized.hpp:
+
+D:/minecraft/include/glm/ext/vector_int3.hpp:
+
+D:/cppCompiler/ucrt64/include/winbase.h:
+
+D:/minecraft/include/glm/ext/vector_int4.hpp:
+
+D:/minecraft/include/glm/ext/vector_int4_sized.hpp:
+
+D:/minecraft/include/glm/ext/vector_relational.inl:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/cmpccxaddintrin.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512bf16intrin.h:
+
+D:/cppCompiler/ucrt64/include/wchar.h:
+
+D:/minecraft/include/glm/ext/vector_uint1.hpp:
+
+D:/cppCompiler/ucrt64/include/ctype.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/basic_ios.tcc:
+
+D:/minecraft/include/glm/trigonometric.hpp:
+
+D:/minecraft/include/glm/ext/vector_uint1_sized.hpp:
+
+D:/minecraft/include/glm/ext/vector_uint2.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/special_function_util.h:
+
+D:/minecraft/include/glm/ext/vector_uint2_sized.hpp:
+
+D:/cppCompiler/ucrt64/include/ddeml.h:
+
+D:/minecraft/include/glm/ext/vector_uint3.hpp:
+
+D:/cppCompiler/ucrt64/include/winsvc.h:
+
+D:/minecraft/include/glm/fwd.hpp:
+
+D:/minecraft/include/glm/geometric.hpp:
+
+D:/minecraft/include/glm/gtc/constants.hpp:
+
+D:/minecraft/include/glm/gtc/epsilon.hpp:
+
+D:/minecraft/include/glm/gtc/epsilon.inl:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_iterator.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/typeinfo:
+
+D:/cppCompiler/ucrt64/include/bemapiset.h:
+
+D:/minecraft/include/glm/gtc/matrix_transform.hpp:
+
+D:/cppCompiler/ucrt64/include/msxml.h:
+
+D:/minecraft/include/glm/gtc/vec1.hpp:
+
+D:/minecraft/include/glm/integer.hpp:
+
+D:/minecraft/include/glm/mat2x3.hpp:
+
+D:/minecraft/include/glm/mat2x4.hpp:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/prfchwintrin.h:
+
+D:/cppCompiler/ucrt64/include/rpcdce.h:
+
+D:/minecraft/include/glm/matrix.hpp:
+
+D:/cppCompiler/ucrt64/include/sys/stat.h:
+
+D:/minecraft/include/glm/mat3x4.hpp:
+
+D:/minecraft/include/glm/mat4x2.hpp:
+
+D:/minecraft/include/glm/mat4x3.hpp:
+
+D:/cppCompiler/ucrt64/include/winioctl.h:
+
+D:/minecraft/include/glm/mat4x4.hpp:
+
+D:/minecraft/include/glm/detail/func_common.inl:
+
+D:/cppCompiler/ucrt64/include/psdk_inc/_socket_types.h:
+
+D:/cppCompiler/ucrt64/include/excpt.h:
+
+D:/minecraft/include/glm/packing.hpp:
+
+D:/minecraft/include/glm/simd/platform.h:
+
+D:/minecraft/include/glm/vec2.hpp:
+
+D:/cppCompiler/ucrt64/include/rpcdcep.h:
+
+D:/cppCompiler/ucrt64/include/ktmtypes.h:
+
+D:/minecraft/include/glm/vec3.hpp:
+
+D:/minecraft/include/glm/vec4.hpp:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/cfloat:
+
+D:/minecraft/include/glm/vector_relational.hpp:
+
+D:/cppCompiler/ucrt64/include/fltwinerror.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/sstream.tcc:
+
+D:/cppCompiler/ucrt64/include/winnls.h:
+
+D:/cppCompiler/ucrt64/include/_bsd_types.h:
+
+D:/cppCompiler/ucrt64/include/_mingw_stdarg.h:
+
+D:/cppCompiler/ucrt64/include/pthread.h:
+
+D:/cppCompiler/ucrt64/include/_mingw_unicode.h:
+
+D:/cppCompiler/ucrt64/include/rpcnsip.h:
+
+D:/cppCompiler/ucrt64/include/apiset.h:
+
+D:/cppCompiler/ucrt64/include/bcrypt.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512ifmaintrin.h:
+
+D:/cppCompiler/ucrt64/include/cderr.h:
+
+D:/cppCompiler/ucrt64/include/cguid.h:
+
+D:/cppCompiler/ucrt64/include/combaseapi.h:
+
+D:/cppCompiler/ucrt64/include/concurrencysal.h:
+
+D:/cppCompiler/ucrt64/include/dde.h:
+
+D:/cppCompiler/ucrt64/include/debugapi.h:
+
+D:/cppCompiler/ucrt64/include/dlgs.h:
+
+D:/cppCompiler/ucrt64/include/driverspecs.h:
+
+D:/cppCompiler/ucrt64/include/errhandlingapi.h:
+
+D:/cppCompiler/ucrt64/include/fibersapi.h:
+
+D:/cppCompiler/ucrt64/include/handleapi.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/vaesintrin.h:
+
+D:/minecraft/include/glm/ext/matrix_float4x2_precision.hpp:
+
+D:/cppCompiler/ucrt64/include/memoryapi.h:
+
+D:/cppCompiler/ucrt64/include/heapapi.h:
+
+D:/cppCompiler/ucrt64/include/inaddr.h:
+
+D:/cppCompiler/ucrt64/include/interlockedapi.h:
+
+D:/cppCompiler/ucrt64/include/commdlg.h:
+
+D:/minecraft/include/glm/detail/type_mat4x4.hpp:
+
+D:/cppCompiler/ucrt64/include/namespaceapi.h:
+
+D:/minecraft/include/glm/ext/vector_bool3_precision.hpp:
+
+D:/cppCompiler/ucrt64/include/ioapiset.h:
+
+D:/cppCompiler/ucrt64/include/swprintf.inl:
+
+D:/cppCompiler/ucrt64/include/jobapi.h:
+
+D:/cppCompiler/ucrt64/include/mciapi.h:
+
+D:/cppCompiler/ucrt64/include/reason.h:
+
+D:/cppCompiler/ucrt64/include/minwinbase.h:
+
+D:/minecraft/include/glm/ext/matrix_projection.hpp:
+
+D:/cppCompiler/ucrt64/include/minwindef.h:
+
+D:/cppCompiler/ucrt64/include/mmiscapi2.h:
+
+D:/minecraft/include/glm/ext/vector_int3_sized.hpp:
+
+D:/cppCompiler/ucrt64/include/mmsyscom.h:
+
+D:/cppCompiler/ucrt64/include/ncrypt.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/hresetintrin.h:
+
+D:/cppCompiler/ucrt64/include/objbase.h:
+
+D:/minecraft/include/glm/ext/matrix_double3x2.hpp:
+
+D:/cppCompiler/ucrt64/include/objidl.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stl_iterator_base_types.h:
+
+D:/cppCompiler/ucrt64/include/oleidl.h:
+
+D:/cppCompiler/ucrt64/include/processthreadsapi.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/basic_string.h:
+
+D:/cppCompiler/ucrt64/include/psdk_inc/_fd_types.h:
+
+D:/cppCompiler/ucrt64/include/psdk_inc/_ip_mreq1.h:
+
+D:/cppCompiler/ucrt64/include/threadpoollegacyapiset.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512fp16vlintrin.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/predefined_ops.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/adxintrin.h:
+
+D:/cppCompiler/ucrt64/include/psdk_inc/_ip_types.h:
+
+D:/minecraft/include/glm/detail/type_vec2.hpp:
+
+D:/cppCompiler/ucrt64/include/psdk_inc/_wsa_errnos.h:
+
+D:/cppCompiler/ucrt64/include/securityappcontainer.h:
+
+D:/cppCompiler/ucrt64/include/psdk_inc/_wsadata.h:
+
+D:/cppCompiler/ucrt64/include/psdk_inc/_xmitfile.h:
+
+D:/minecraft/include/glm/ext/matrix_float4x4.hpp:
+
+D:/minecraft/include/glm/ext/matrix_float4x2.hpp:
 
 D:/cppCompiler/ucrt64/include/pshpack1.h:
 
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vpopcntdqintrin.h:
+
+D:/cppCompiler/ucrt64/include/unknwnbase.h:
+
+D:/cppCompiler/ucrt64/include/realtimeapiset.h:
+
 D:/cppCompiler/ucrt64/include/pshpack8.h:
 
-D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/ostream_print.h:
-
-D:/cppCompiler/ucrt64/include/pshpack2.h:
-
 D:/cppCompiler/ucrt64/include/rpc.h:
+
+D:/cppCompiler/ucrt64/include/rpcasync.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/pmmintrin.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/x86_64-w64-mingw32/bits/gthr.h:
+
+D:/cppCompiler/ucrt64/include/rpcndr.h:
+
+D:/cppCompiler/ucrt64/include/rpcsal.h:
+
+D:/cppCompiler/ucrt64/include/sal.h:
+
+D:/cppCompiler/ucrt64/include/sdkddkver.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/avx512vbmiintrin.h:
+
+D:/cppCompiler/ucrt64/include/securitybaseapi.h:
+
+D:/cppCompiler/ucrt64/include/specstrings.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/amxint8intrin.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/functional_hash.h:
+
+D:/cppCompiler/ucrt64/include/stdarg.h:
+
+D:/cppCompiler/ucrt64/include/stringapiset.h:
+
+D:/cppCompiler/ucrt64/include/synchapi.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/clocale:
+
+D:/cppCompiler/ucrt64/include/sysinfoapi.h:
+
+D:/cppCompiler/ucrt64/include/systemtopologyapi.h:
+
+D:/cppCompiler/ucrt64/include/wnnc.h:
+
+D:/cppCompiler/ucrt64/include/threadpoolapiset.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/unordered_map:
+
+D:/cppCompiler/ucrt64/include/unknwn.h:
+
+D:/cppCompiler/ucrt64/include/virtdisk.h:
+
+D:/minecraft/include/glm/gtc/quaternion.hpp:
+
+D:/cppCompiler/ucrt64/include/winapifamily.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/bits/stringfwd.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/exception:
+
+D:/cppCompiler/ucrt64/include/wincon.h:
+
+D:/cppCompiler/ucrt64/include/winscard.h:
+
+D:/cppCompiler/ucrt64/include/c++/16.2.0/tr1/exp_integral.tcc:
+
+D:/minecraft/include/glm/ext/vector_double1_precision.hpp:
+
+D:/cppCompiler/ucrt64/include/wincontypes.h:
+
+D:/cppCompiler/ucrt64/include/wincrypt.h:
+
+D:/cppCompiler/ucrt64/include/windef.h:
+
+D:/cppCompiler/ucrt64/include/wingdi.h:
+
+D:/cppCompiler/ucrt64/lib/gcc/x86_64-w64-mingw32/16.2.0/include/float.h:
+
+D:/cppCompiler/ucrt64/include/winsmcrd.h:
+
+D:/cppCompiler/ucrt64/include/winuser.h:

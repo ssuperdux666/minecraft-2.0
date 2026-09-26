@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/minecraft/src/glad.c" "CMakeFiles/cutable.dir/src/glad.c.obj" "gcc" "CMakeFiles/cutable.dir/src/glad.c.obj.d"
   "D:/minecraft/src/game/main.cpp" "CMakeFiles/cutable.dir/src/game/main.cpp.obj" "gcc" "CMakeFiles/cutable.dir/src/game/main.cpp.obj.d"
   "D:/minecraft/src/rendering/shader.cpp" "CMakeFiles/cutable.dir/src/rendering/shader.cpp.obj" "gcc" "CMakeFiles/cutable.dir/src/rendering/shader.cpp.obj.d"
+  "D:/minecraft/src/rendering/textures.cpp" "CMakeFiles/cutable.dir/src/rendering/textures.cpp.obj" "gcc" "CMakeFiles/cutable.dir/src/rendering/textures.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

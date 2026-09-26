@@ -16,5 +16,11 @@
   "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe  @CMakeFiles\\cutable.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\cutable.dir\\src\\rendering\\shader.cpp.obj -c D:\\minecraft\\src\\rendering\\shader.cpp",
   "file": "D:/minecraft/src/rendering/shader.cpp",
   "output": "CMakeFiles/cutable.dir/src/rendering/shader.cpp.obj"
+},
+{
+  "directory": "D:/minecraft/build",
+  "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe  @CMakeFiles\\cutable.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\cutable.dir\\src\\rendering\\textures.cpp.obj -c D:\\minecraft\\src\\rendering\\textures.cpp",
+  "file": "D:/minecraft/src/rendering/textures.cpp",
+  "output": "CMakeFiles/cutable.dir/src/rendering/textures.cpp.obj"
 }
 ]

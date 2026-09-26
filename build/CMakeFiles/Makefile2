@@ -84,12 +84,12 @@ clean: CMakeFiles/cutable.dir/clean
 CMakeFiles/cutable.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cutable.dir\build.make CMakeFiles/cutable.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cutable.dir\build.make CMakeFiles/cutable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\minecraft\build\CMakeFiles --progress-num=1,2,3,4 "Built target cutable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\minecraft\build\CMakeFiles --progress-num=1,2,3,4,5 "Built target cutable"
 .PHONY : CMakeFiles/cutable.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cutable.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\minecraft\build\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\minecraft\build\CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/cutable.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\minecraft\build\CMakeFiles 0
 .PHONY : CMakeFiles/cutable.dir/rule
@@ -101,7 +101,7 @@ cutable: CMakeFiles/cutable.dir/rule
 # codegen rule for target.
 CMakeFiles/cutable.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\cutable.dir\build.make CMakeFiles/cutable.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\minecraft\build\CMakeFiles --progress-num=1,2,3,4 "Finished codegen for target cutable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\minecraft\build\CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target cutable"
 .PHONY : CMakeFiles/cutable.dir/codegen
 
 # clean rule for target.

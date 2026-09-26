@@ -21,12 +21,15 @@ std::string loadShader(const std::string& path) {
 }
 
 Shader::Shader() {
-    const char* vertexShaderSource = loadShader(Graphics_Config::vertexShaderPath).c_str();//krijg de tekst
-    const char* fragmentShaderSource = loadShader(Graphics_Config::fragmentShaderPath).c_str();
+    std::string vertexShaderSource = loadShader(Graphics_Config::vertexShaderPath);
+    std::string fragmentShaderSource = loadShader(Graphics_Config::fragmentShaderPath);
+
+    const char* vertexShaderSourceC = vertexShaderSource.c_str();
+    const char* fragmentShaderSourceC = fragmentShaderSource.c_str();
 
     unsigned int vertexShader;
     vertexShader = glCreateShader(GL_VERTEX_SHADER);
-    glShaderSource(vertexShader, 1, &vertexShaderSource, NULL);
+    glShaderSource(vertexShader, 1, &vertexShaderSourceC, NULL);
     glCompileShader(vertexShader);
 
     int success;
@@ -40,7 +43,7 @@ Shader::Shader() {
 
     unsigned int fragmentShader;
     fragmentShader = glCreateShader(GL_FRAGMENT_SHADER);
-    glShaderSource(fragmentShader,1,&fragmentShaderSource,NULL);
+    glShaderSource(fragmentShader,1,&fragmentShaderSourceC,NULL);
     glCompileShader(fragmentShader);
 
     int success2;
