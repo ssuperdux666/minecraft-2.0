@@ -1,26 +1,26 @@
 [
 {
   "directory": "D:/minecraft/build",
-  "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe  @CMakeFiles\\cutable.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\cutable.dir\\src\\game\\main.cpp.obj -c D:\\minecraft\\src\\game\\main.cpp",
+  "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe -ID:/minecraft/include -ID:/minecraft/config -g -std=gnu++17 -o CMakeFiles\\cutable.dir\\src\\game\\main.cpp.obj -c D:\\minecraft\\src\\game\\main.cpp",
   "file": "D:/minecraft/src/game/main.cpp",
-  "output": "CMakeFiles/cutable.dir/src/game/main.cpp.obj"
+  "output": "D:/minecraft/build/CMakeFiles/cutable.dir/src/game/main.cpp.obj"
 },
 {
   "directory": "D:/minecraft/build",
-  "command": "D:\\cppCompiler\\ucrt64\\bin\\gcc.exe  @CMakeFiles\\cutable.dir\\includes_C.rsp -g -o CMakeFiles\\cutable.dir\\src\\glad.c.obj -c D:\\minecraft\\src\\glad.c",
+  "command": "D:\\cppCompiler\\ucrt64\\bin\\gcc.exe -ID:/minecraft/include -ID:/minecraft/config -g -o CMakeFiles\\cutable.dir\\src\\glad.c.obj -c D:\\minecraft\\src\\glad.c",
   "file": "D:/minecraft/src/glad.c",
-  "output": "CMakeFiles/cutable.dir/src/glad.c.obj"
+  "output": "D:/minecraft/build/CMakeFiles/cutable.dir/src/glad.c.obj"
 },
 {
   "directory": "D:/minecraft/build",
-  "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe  @CMakeFiles\\cutable.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\cutable.dir\\src\\rendering\\shader.cpp.obj -c D:\\minecraft\\src\\rendering\\shader.cpp",
+  "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe -ID:/minecraft/include -ID:/minecraft/config -g -std=gnu++17 -o CMakeFiles\\cutable.dir\\src\\rendering\\shader.cpp.obj -c D:\\minecraft\\src\\rendering\\shader.cpp",
   "file": "D:/minecraft/src/rendering/shader.cpp",
-  "output": "CMakeFiles/cutable.dir/src/rendering/shader.cpp.obj"
+  "output": "D:/minecraft/build/CMakeFiles/cutable.dir/src/rendering/shader.cpp.obj"
 },
 {
   "directory": "D:/minecraft/build",
-  "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe  @CMakeFiles\\cutable.dir\\includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\cutable.dir\\src\\rendering\\textures.cpp.obj -c D:\\minecraft\\src\\rendering\\textures.cpp",
+  "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe -ID:/minecraft/include -ID:/minecraft/config -g -std=gnu++17 -o CMakeFiles\\cutable.dir\\src\\rendering\\textures.cpp.obj -c D:\\minecraft\\src\\rendering\\textures.cpp",
   "file": "D:/minecraft/src/rendering/textures.cpp",
-  "output": "CMakeFiles/cutable.dir/src/rendering/textures.cpp.obj"
+  "output": "D:/minecraft/build/CMakeFiles/cutable.dir/src/rendering/textures.cpp.obj"
 }
 ]

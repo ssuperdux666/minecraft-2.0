@@ -7,7 +7,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-b5805d5c08fd3d92def4.json",
+					"jsonFile" : "directory-.-Debug-f040eec181a89de70dbe.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -40,7 +40,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "cutable::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-cutable-Debug-2d09b5b8c1680a9e49ef.json",
+					"jsonFile" : "target-cutable-Debug-d894f29666d4e457b42e.json",
 					"name" : "cutable",
 					"projectIndex" : 0
 				}
@@ -56,6 +56,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 11
+		"minor" : 10
 	}
 }
