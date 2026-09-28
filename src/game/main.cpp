@@ -66,9 +66,16 @@ unsigned int indices[6] = {
     3, 2, 1, 2, 0, 1
 };
 
-void debugPrint(int line) {
+void debug_print(int line) {
     std::cout << "Debug print " << GLOBAL_DEBUG_INDEX << " on line " << line << std::endl;
     GLOBAL_DEBUG_INDEX += 1;
+}
+
+Camera mainCam;
+
+void mouse_input_func(GLFWwindow* window, double xpos, double ypos) {
+    if (mainCam.locked) 
+        mainCam.process_mouse(window, xpos, ypos);
 }
 
 int main() {
@@ -125,7 +132,6 @@ int main() {
     glBindVertexArray(VAO);
 
     Texture tex1("../assets/goon.jpg");
-    Camera mainCam;
 
     glEnable(GL_DEPTH_TEST);
     glfwSwapInterval(1);
@@ -138,6 +144,8 @@ int main() {
     float lastFrame = 0.0f;
 
     glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+
+    glfwSetCursorPosCallback(window, mouse_input_func); 
 
     while (!glfwWindowShouldClose(window)) {
 
@@ -155,7 +163,7 @@ int main() {
         glUseProgram(shaderProgram.ID);
         glBindVertexArray(VAO);
 
-        mainCam.processInput(window,deltaTime);
+        mainCam.process_input(window,deltaTime);
         
         //model
         glm::mat4 model = glm::mat4(1.0f);

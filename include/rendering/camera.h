@@ -6,6 +6,9 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
+const float CAMERA_SPEED = 3.00f;
+const int DECATIVATION_KEY = GLFW_KEY_H;
+
 class Camera {
     public:
         glm::vec3 camPosition;
@@ -16,12 +19,21 @@ class Camera {
         glm::vec3 camUp;
         glm::vec3 camRight;
 
-        const float cameraSpeed = 3.00f;
+        bool firstMouse = true;
+        double lastX;
+        double lastY;
+
+        float yaw;
+        float pitch;
+
+        bool locked = true;
+
+        float lastPress = 0;
 
         Camera();
 
-        void processInput(GLFWwindow *window, float deltaTime);
-
+        void process_input(GLFWwindow *window, float deltaTime);
+        void process_mouse(GLFWwindow* window, double xpos, double ypos);
 };
 
 #endif
