@@ -13,6 +13,12 @@
 },
 {
   "directory": "D:/minecraft/build",
+  "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe -ID:/minecraft/include -ID:/minecraft/config -g -std=gnu++17 -o CMakeFiles\\cutable.dir\\src\\rendering\\camera.cpp.obj -c D:\\minecraft\\src\\rendering\\camera.cpp",
+  "file": "D:/minecraft/src/rendering/camera.cpp",
+  "output": "D:/minecraft/build/CMakeFiles/cutable.dir/src/rendering/camera.cpp.obj"
+},
+{
+  "directory": "D:/minecraft/build",
   "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe -ID:/minecraft/include -ID:/minecraft/config -g -std=gnu++17 -o CMakeFiles\\cutable.dir\\src\\rendering\\shader.cpp.obj -c D:\\minecraft\\src\\rendering\\shader.cpp",
   "file": "D:/minecraft/src/rendering/shader.cpp",
   "output": "D:/minecraft/build/CMakeFiles/cutable.dir/src/rendering/shader.cpp.obj"

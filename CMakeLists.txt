@@ -1,10 +1,11 @@
 cmake_minimum_required(VERSION 3.10)
 project(Minecraft)
 
-file(GLOB_RECURSE SOURCES
+file(GLOB_RECURSE SOURCES CONFIGURE_DEPENDS
     src/*.cpp
     src/*.c
 )
+
 add_executable(cutable ${SOURCES})
 
 target_include_directories(cutable PRIVATE include)
