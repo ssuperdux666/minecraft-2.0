@@ -4,6 +4,8 @@
 #include <iostream>
 #include <vector>
 
+#include "rendering/buffer.h"
+
 #include "config/config.h"
 
 #include "rendering/shader.h"
@@ -15,63 +17,17 @@
 
 #include "rendering/camera.h"
 
+#include "world/cube.h"
+#include "world/sub_chunk.h"
+
 unsigned int GLOBAL_DEBUG_INDEX = 0;
-float FOV = glm::radians(90.0f);
 
-float vertices[] = {
-    -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
-     0.5f, -0.5f, -0.5f,  1.0f, 0.0f,
-     0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-     0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-    -0.5f,  0.5f, -0.5f,  0.0f, 1.0f,
-    -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
-
-    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-     0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
-     0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
-     0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
-    -0.5f,  0.5f,  0.5f,  0.0f, 1.0f,
-    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-
-    -0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-    -0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-    -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-    -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-    -0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-
-     0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-     0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-     0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-     0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-     0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-     0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-
-    -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-     0.5f, -0.5f, -0.5f,  1.0f, 1.0f,
-     0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
-     0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
-    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-    -0.5f, -0.5f, -0.5f,  0.0f, 1.0f,
-
-    -0.5f,  0.5f, -0.5f,  0.0f, 1.0f,
-     0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-     0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-     0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-    -0.5f,  0.5f,  0.5f,  0.0f, 0.0f,
-    -0.5f,  0.5f, -0.5f,  0.0f, 1.0f
-};
-
-unsigned int indices[6] = {
-    3, 2, 1, 2, 0, 1
-};
+Camera mainCam;
 
 void debug_print(int line) {
     std::cout << "Debug print " << GLOBAL_DEBUG_INDEX << " on line " << line << std::endl;
     GLOBAL_DEBUG_INDEX += 1;
 }
-
-Camera mainCam;
 
 void mouse_input_func(GLFWwindow* window, double xpos, double ypos) {
     if (mainCam.locked) 
@@ -104,21 +60,13 @@ int main() {
 
     glViewport(0,0,Graphics_Config::SCREEN_WIDTH,Graphics_Config::SCREEN_HEIGHT);
 
-    unsigned int VAO;
-    glGenVertexArrays(1, &VAO); 
-    glBindVertexArray(VAO);
+    sub_chunk* chunk1 = new sub_chunk(0,0,0);
 
-    unsigned int VBO;
-    glGenBuffers(1,&VBO);
-    glBindBuffer(GL_ARRAY_BUFFER,VBO);
+    chunk1->mesh_sub_chunk();
 
-    glBufferData(GL_ARRAY_BUFFER,sizeof(vertices),vertices,GL_STATIC_DRAW);
-
-    unsigned int EBO;
-    glGenBuffers(1,&EBO);
-    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER,EBO);
-
-    glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices), indices, GL_STATIC_DRAW); 
+/*  VAO VAO1;
+    VBO VBO1(CUBE_VERTICES, sizeof(CUBE_VERTICES));
+    EBO EBO1(CUBE_INDICES, sizeof(CUBE_INDICES)); */
     
     Shader shaderProgram;
 
@@ -129,7 +77,6 @@ int main() {
     glEnableVertexAttribArray(1);
 
     shaderProgram.Use();
-    glBindVertexArray(VAO);
 
     Texture tex1("../assets/goon.jpg");
 
@@ -158,35 +105,26 @@ int main() {
         glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        glBindTexture(GL_TEXTURE_2D, tex1.ID);
-
-        glUseProgram(shaderProgram.ID);
-        glBindVertexArray(VAO);
-
         mainCam.process_input(window,deltaTime);
-        
+
         //model
         glm::mat4 model = glm::mat4(1.0f);
-
         model = glm::translate(model, glm::vec3(0.0f,0.0f,0.0f));
-        model = glm::rotate(model, glm::radians(-55.0f), glm::vec3(1.0f, 0.0f, 0.0f));
-        model = glm::rotate(model, currentFrameTime * FOV, glm::vec3(1.0f, 0.0f, 1.0f));
         model = glm::scale(model, glm::vec3(1.0f, 1.0f, 1.0f));
-
         //view
         glm::mat4 view = glm::mat4(1.0f);
         view = glm::lookAt(mainCam.camPosition, mainCam.camPosition + mainCam.camDirection, mainCam.camUp);
-
         //projection
         glm::mat4 projection;
-        projection = glm::perspective(FOV, Graphics_Config::SCREEN_WIDTH / Graphics_Config::SCREEN_HEIGHT, 0.1f, 100.0f);
+        projection = glm::perspective(Graphics_Config::FOV, Graphics_Config::SCREEN_WIDTH / Graphics_Config::SCREEN_HEIGHT, 0.01f, 100.0f);
 
-        glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));   
         glUniformMatrix4fv(modelLoc2, 1, GL_FALSE, glm::value_ptr(view)); 
-        glUniformMatrix4fv(modelLoc3, 1, GL_FALSE, glm::value_ptr(projection));   
+        glUniformMatrix4fv(modelLoc3, 1, GL_FALSE, glm::value_ptr(projection)); 
+        glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));   
+            
 
-        glDrawArrays(GL_TRIANGLES, 0, 36);
-
+        chunk1->draw(tex1,shaderProgram);
+        
         glfwSwapBuffers(window);
         glfwPollEvents();
     }

@@ -1,32 +1,44 @@
 [
 {
   "directory": "D:/minecraft/build",
-  "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe -ID:/minecraft/include -ID:/minecraft/config -g -std=gnu++17 -o CMakeFiles\\cutable.dir\\src\\game\\main.cpp.obj -c D:\\minecraft\\src\\game\\main.cpp",
+  "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe -ID:/minecraft/include -ID:/minecraft/config -g -std=gnu++17 -o CMakeFiles\\minecraft.dir\\src\\game\\main.cpp.obj -c D:\\minecraft\\src\\game\\main.cpp",
   "file": "D:/minecraft/src/game/main.cpp",
-  "output": "D:/minecraft/build/CMakeFiles/cutable.dir/src/game/main.cpp.obj"
+  "output": "D:/minecraft/build/CMakeFiles/minecraft.dir/src/game/main.cpp.obj"
 },
 {
   "directory": "D:/minecraft/build",
-  "command": "D:\\cppCompiler\\ucrt64\\bin\\gcc.exe -ID:/minecraft/include -ID:/minecraft/config -g -o CMakeFiles\\cutable.dir\\src\\glad.c.obj -c D:\\minecraft\\src\\glad.c",
+  "command": "D:\\cppCompiler\\ucrt64\\bin\\gcc.exe -ID:/minecraft/include -ID:/minecraft/config -g -o CMakeFiles\\minecraft.dir\\src\\glad.c.obj -c D:\\minecraft\\src\\glad.c",
   "file": "D:/minecraft/src/glad.c",
-  "output": "D:/minecraft/build/CMakeFiles/cutable.dir/src/glad.c.obj"
+  "output": "D:/minecraft/build/CMakeFiles/minecraft.dir/src/glad.c.obj"
 },
 {
   "directory": "D:/minecraft/build",
-  "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe -ID:/minecraft/include -ID:/minecraft/config -g -std=gnu++17 -o CMakeFiles\\cutable.dir\\src\\rendering\\camera.cpp.obj -c D:\\minecraft\\src\\rendering\\camera.cpp",
+  "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe -ID:/minecraft/include -ID:/minecraft/config -g -std=gnu++17 -o CMakeFiles\\minecraft.dir\\src\\rendering\\buffer.cpp.obj -c D:\\minecraft\\src\\rendering\\buffer.cpp",
+  "file": "D:/minecraft/src/rendering/buffer.cpp",
+  "output": "D:/minecraft/build/CMakeFiles/minecraft.dir/src/rendering/buffer.cpp.obj"
+},
+{
+  "directory": "D:/minecraft/build",
+  "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe -ID:/minecraft/include -ID:/minecraft/config -g -std=gnu++17 -o CMakeFiles\\minecraft.dir\\src\\rendering\\camera.cpp.obj -c D:\\minecraft\\src\\rendering\\camera.cpp",
   "file": "D:/minecraft/src/rendering/camera.cpp",
-  "output": "D:/minecraft/build/CMakeFiles/cutable.dir/src/rendering/camera.cpp.obj"
+  "output": "D:/minecraft/build/CMakeFiles/minecraft.dir/src/rendering/camera.cpp.obj"
 },
 {
   "directory": "D:/minecraft/build",
-  "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe -ID:/minecraft/include -ID:/minecraft/config -g -std=gnu++17 -o CMakeFiles\\cutable.dir\\src\\rendering\\shader.cpp.obj -c D:\\minecraft\\src\\rendering\\shader.cpp",
+  "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe -ID:/minecraft/include -ID:/minecraft/config -g -std=gnu++17 -o CMakeFiles\\minecraft.dir\\src\\rendering\\shader.cpp.obj -c D:\\minecraft\\src\\rendering\\shader.cpp",
   "file": "D:/minecraft/src/rendering/shader.cpp",
-  "output": "D:/minecraft/build/CMakeFiles/cutable.dir/src/rendering/shader.cpp.obj"
+  "output": "D:/minecraft/build/CMakeFiles/minecraft.dir/src/rendering/shader.cpp.obj"
 },
 {
   "directory": "D:/minecraft/build",
-  "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe -ID:/minecraft/include -ID:/minecraft/config -g -std=gnu++17 -o CMakeFiles\\cutable.dir\\src\\rendering\\textures.cpp.obj -c D:\\minecraft\\src\\rendering\\textures.cpp",
+  "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe -ID:/minecraft/include -ID:/minecraft/config -g -std=gnu++17 -o CMakeFiles\\minecraft.dir\\src\\rendering\\textures.cpp.obj -c D:\\minecraft\\src\\rendering\\textures.cpp",
   "file": "D:/minecraft/src/rendering/textures.cpp",
-  "output": "D:/minecraft/build/CMakeFiles/cutable.dir/src/rendering/textures.cpp.obj"
+  "output": "D:/minecraft/build/CMakeFiles/minecraft.dir/src/rendering/textures.cpp.obj"
+},
+{
+  "directory": "D:/minecraft/build",
+  "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe -ID:/minecraft/include -ID:/minecraft/config -g -std=gnu++17 -o CMakeFiles\\minecraft.dir\\src\\world\\sub_chunk.cpp.obj -c D:\\minecraft\\src\\world\\sub_chunk.cpp",
+  "file": "D:/minecraft/src/world/sub_chunk.cpp",
+  "output": "D:/minecraft/build/CMakeFiles/minecraft.dir/src/world/sub_chunk.cpp.obj"
 }
 ]

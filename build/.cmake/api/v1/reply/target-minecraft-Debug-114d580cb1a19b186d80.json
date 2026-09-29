@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "cutable.exe"
+			"path" : "minecraft.exe"
 		},
 		{
-			"path" : "cutable.pdb"
+			"path" : "minecraft.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -105,7 +105,9 @@
 				0,
 				2,
 				3,
-				4
+				4,
+				5,
+				6
 			]
 		},
 		{
@@ -133,7 +135,7 @@
 			]
 		}
 	],
-	"id" : "cutable::@6890427a1f51a3e7e1df",
+	"id" : "minecraft::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -184,8 +186,8 @@
 			"fragment" : "gdi32"
 		}
 	],
-	"name" : "cutable",
-	"nameOnDisk" : "cutable.exe",
+	"name" : "minecraft",
+	"nameOnDisk" : "minecraft.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -201,7 +203,9 @@
 				1,
 				2,
 				3,
-				4
+				4,
+				5,
+				6
 			]
 		}
 	],
@@ -222,6 +226,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
+			"path" : "src/rendering/buffer.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
 			"path" : "src/rendering/camera.cpp",
 			"sourceGroupIndex" : 0
 		},
@@ -235,6 +245,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/rendering/textures.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/world/sub_chunk.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

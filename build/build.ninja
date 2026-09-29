@@ -41,79 +41,97 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = D$:/minecraft/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target cutable
+# Object build statements for EXECUTABLE target minecraft
 
 
 #############################################
-# Order-only phony target for cutable
+# Order-only phony target for minecraft
 
-build cmake_object_order_depends_target_cutable: phony || .
+build cmake_object_order_depends_target_minecraft: phony || .
 
-build CMakeFiles/cutable.dir/src/game/main.cpp.obj: CXX_COMPILER__cutable_unscanned_Debug D$:/minecraft/src/game/main.cpp || cmake_object_order_depends_target_cutable
+build CMakeFiles/minecraft.dir/src/game/main.cpp.obj: CXX_COMPILER__minecraft_unscanned_Debug D$:/minecraft/src/game/main.cpp || cmake_object_order_depends_target_minecraft
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\cutable.dir\src\game\main.cpp.obj.d
+  DEP_FILE = CMakeFiles\minecraft.dir\src\game\main.cpp.obj.d
   FLAGS = -g -std=gnu++17
   INCLUDES = -ID:/minecraft/include -ID:/minecraft/config
-  OBJECT_DIR = CMakeFiles\cutable.dir
-  OBJECT_FILE_DIR = CMakeFiles\cutable.dir\src\game
-  TARGET_SUPPORT_DIR = CMakeFiles\cutable.dir
+  OBJECT_DIR = CMakeFiles\minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles\minecraft.dir\src\game
+  TARGET_SUPPORT_DIR = CMakeFiles\minecraft.dir
 
-build CMakeFiles/cutable.dir/src/glad.c.obj: C_COMPILER__cutable_unscanned_Debug D$:/minecraft/src/glad.c || cmake_object_order_depends_target_cutable
+build CMakeFiles/minecraft.dir/src/glad.c.obj: C_COMPILER__minecraft_unscanned_Debug D$:/minecraft/src/glad.c || cmake_object_order_depends_target_minecraft
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\cutable.dir\src\glad.c.obj.d
+  DEP_FILE = CMakeFiles\minecraft.dir\src\glad.c.obj.d
   FLAGS = -g
   INCLUDES = -ID:/minecraft/include -ID:/minecraft/config
-  OBJECT_DIR = CMakeFiles\cutable.dir
-  OBJECT_FILE_DIR = CMakeFiles\cutable.dir\src
-  TARGET_SUPPORT_DIR = CMakeFiles\cutable.dir
+  OBJECT_DIR = CMakeFiles\minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles\minecraft.dir\src
+  TARGET_SUPPORT_DIR = CMakeFiles\minecraft.dir
 
-build CMakeFiles/cutable.dir/src/rendering/camera.cpp.obj: CXX_COMPILER__cutable_unscanned_Debug D$:/minecraft/src/rendering/camera.cpp || cmake_object_order_depends_target_cutable
+build CMakeFiles/minecraft.dir/src/rendering/buffer.cpp.obj: CXX_COMPILER__minecraft_unscanned_Debug D$:/minecraft/src/rendering/buffer.cpp || cmake_object_order_depends_target_minecraft
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\cutable.dir\src\rendering\camera.cpp.obj.d
+  DEP_FILE = CMakeFiles\minecraft.dir\src\rendering\buffer.cpp.obj.d
   FLAGS = -g -std=gnu++17
   INCLUDES = -ID:/minecraft/include -ID:/minecraft/config
-  OBJECT_DIR = CMakeFiles\cutable.dir
-  OBJECT_FILE_DIR = CMakeFiles\cutable.dir\src\rendering
-  TARGET_SUPPORT_DIR = CMakeFiles\cutable.dir
+  OBJECT_DIR = CMakeFiles\minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles\minecraft.dir\src\rendering
+  TARGET_SUPPORT_DIR = CMakeFiles\minecraft.dir
 
-build CMakeFiles/cutable.dir/src/rendering/shader.cpp.obj: CXX_COMPILER__cutable_unscanned_Debug D$:/minecraft/src/rendering/shader.cpp || cmake_object_order_depends_target_cutable
+build CMakeFiles/minecraft.dir/src/rendering/camera.cpp.obj: CXX_COMPILER__minecraft_unscanned_Debug D$:/minecraft/src/rendering/camera.cpp || cmake_object_order_depends_target_minecraft
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\cutable.dir\src\rendering\shader.cpp.obj.d
+  DEP_FILE = CMakeFiles\minecraft.dir\src\rendering\camera.cpp.obj.d
   FLAGS = -g -std=gnu++17
   INCLUDES = -ID:/minecraft/include -ID:/minecraft/config
-  OBJECT_DIR = CMakeFiles\cutable.dir
-  OBJECT_FILE_DIR = CMakeFiles\cutable.dir\src\rendering
-  TARGET_SUPPORT_DIR = CMakeFiles\cutable.dir
+  OBJECT_DIR = CMakeFiles\minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles\minecraft.dir\src\rendering
+  TARGET_SUPPORT_DIR = CMakeFiles\minecraft.dir
 
-build CMakeFiles/cutable.dir/src/rendering/textures.cpp.obj: CXX_COMPILER__cutable_unscanned_Debug D$:/minecraft/src/rendering/textures.cpp || cmake_object_order_depends_target_cutable
+build CMakeFiles/minecraft.dir/src/rendering/shader.cpp.obj: CXX_COMPILER__minecraft_unscanned_Debug D$:/minecraft/src/rendering/shader.cpp || cmake_object_order_depends_target_minecraft
   CONFIG = Debug
-  DEP_FILE = CMakeFiles\cutable.dir\src\rendering\textures.cpp.obj.d
+  DEP_FILE = CMakeFiles\minecraft.dir\src\rendering\shader.cpp.obj.d
   FLAGS = -g -std=gnu++17
   INCLUDES = -ID:/minecraft/include -ID:/minecraft/config
-  OBJECT_DIR = CMakeFiles\cutable.dir
-  OBJECT_FILE_DIR = CMakeFiles\cutable.dir\src\rendering
-  TARGET_SUPPORT_DIR = CMakeFiles\cutable.dir
+  OBJECT_DIR = CMakeFiles\minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles\minecraft.dir\src\rendering
+  TARGET_SUPPORT_DIR = CMakeFiles\minecraft.dir
+
+build CMakeFiles/minecraft.dir/src/rendering/textures.cpp.obj: CXX_COMPILER__minecraft_unscanned_Debug D$:/minecraft/src/rendering/textures.cpp || cmake_object_order_depends_target_minecraft
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\minecraft.dir\src\rendering\textures.cpp.obj.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -ID:/minecraft/include -ID:/minecraft/config
+  OBJECT_DIR = CMakeFiles\minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles\minecraft.dir\src\rendering
+  TARGET_SUPPORT_DIR = CMakeFiles\minecraft.dir
+
+build CMakeFiles/minecraft.dir/src/world/sub_chunk.cpp.obj: CXX_COMPILER__minecraft_unscanned_Debug D$:/minecraft/src/world/sub_chunk.cpp || cmake_object_order_depends_target_minecraft
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\minecraft.dir\src\world\sub_chunk.cpp.obj.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -ID:/minecraft/include -ID:/minecraft/config
+  OBJECT_DIR = CMakeFiles\minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles\minecraft.dir\src\world
+  TARGET_SUPPORT_DIR = CMakeFiles\minecraft.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target cutable
+# Link build statements for EXECUTABLE target minecraft
 
 
 #############################################
-# Link the executable cutable.exe
+# Link the executable minecraft.exe
 
-build cutable.exe: CXX_EXECUTABLE_LINKER__cutable_Debug CMakeFiles/cutable.dir/src/game/main.cpp.obj CMakeFiles/cutable.dir/src/glad.c.obj CMakeFiles/cutable.dir/src/rendering/camera.cpp.obj CMakeFiles/cutable.dir/src/rendering/shader.cpp.obj CMakeFiles/cutable.dir/src/rendering/textures.cpp.obj
+build minecraft.exe: CXX_EXECUTABLE_LINKER__minecraft_Debug CMakeFiles/minecraft.dir/src/game/main.cpp.obj CMakeFiles/minecraft.dir/src/glad.c.obj CMakeFiles/minecraft.dir/src/rendering/buffer.cpp.obj CMakeFiles/minecraft.dir/src/rendering/camera.cpp.obj CMakeFiles/minecraft.dir/src/rendering/shader.cpp.obj CMakeFiles/minecraft.dir/src/rendering/textures.cpp.obj CMakeFiles/minecraft.dir/src/world/sub_chunk.cpp.obj
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = -lglfw3dll  -lopengl32  -lgdi32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   LINK_PATH = -LD:/minecraft/lib
-  OBJECT_DIR = CMakeFiles\cutable.dir
+  OBJECT_DIR = CMakeFiles\minecraft.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = cutable.exe
-  TARGET_IMPLIB = libcutable.dll.a
-  TARGET_PDB = cutable.exe.dbg
-  TARGET_SUPPORT_DIR = CMakeFiles\cutable.dir
+  TARGET_FILE = minecraft.exe
+  TARGET_IMPLIB = libminecraft.dll.a
+  TARGET_PDB = minecraft.exe.dbg
+  TARGET_SUPPORT_DIR = CMakeFiles\minecraft.dir
 
 
 #############################################
@@ -142,7 +160,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build cutable: phony cutable.exe
+build minecraft: phony minecraft.exe
 
 # =============================================================================
 # Folder targets.
@@ -152,7 +170,7 @@ build cutable: phony cutable.exe
 #############################################
 # Folder: D:/minecraft/build
 
-build all: phony cutable.exe
+build all: phony minecraft.exe
 
 # =============================================================================
 # Built-in targets

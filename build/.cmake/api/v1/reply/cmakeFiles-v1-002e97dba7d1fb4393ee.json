@@ -14,9 +14,11 @@
 			"paths" : 
 			[
 				"D:/minecraft/src/game/main.cpp",
+				"D:/minecraft/src/rendering/buffer.cpp",
 				"D:/minecraft/src/rendering/camera.cpp",
 				"D:/minecraft/src/rendering/shader.cpp",
-				"D:/minecraft/src/rendering/textures.cpp"
+				"D:/minecraft/src/rendering/textures.cpp",
+				"D:/minecraft/src/world/sub_chunk.cpp"
 			],
 			"recurse" : true
 		}

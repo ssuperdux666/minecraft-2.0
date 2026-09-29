@@ -6,7 +6,7 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
-const float CAMERA_SPEED = 3.00f;
+const float CAMERA_SPEED = 15.00f;
 const int DECATIVATION_KEY = GLFW_KEY_H;
 
 class Camera {

@@ -19,6 +19,9 @@ void Camera::process_input(GLFWwindow *window, float deltaTime) {
 
     float frameSpeed = deltaTime * CAMERA_SPEED;
 
+    if (glfwGetKey(window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS)
+        frameSpeed /= 5;
+
     if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
         camPosition += camDirection * frameSpeed;
 

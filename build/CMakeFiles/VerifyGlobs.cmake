@@ -31,9 +31,11 @@ endif()
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "D:/minecraft/src/*.cpp")
 set(OLD_GLOB
   "D:/minecraft/src/game/main.cpp"
+  "D:/minecraft/src/rendering/buffer.cpp"
   "D:/minecraft/src/rendering/camera.cpp"
   "D:/minecraft/src/rendering/shader.cpp"
   "D:/minecraft/src/rendering/textures.cpp"
+  "D:/minecraft/src/world/sub_chunk.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
