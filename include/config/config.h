@@ -20,6 +20,8 @@ namespace World_n {
     constexpr int SUB_CHUNK_SIZE = 16;
     constexpr int SUB_CHUNK_LENGTH = SUB_CHUNK_SIZE * SUB_CHUNK_SIZE * SUB_CHUNK_SIZE;
 
+    constexpr int WORLD_SIZE = 10;
+
 }
 
 

@@ -36,6 +36,7 @@ set(OLD_GLOB
   "D:/minecraft/src/rendering/shader.cpp"
   "D:/minecraft/src/rendering/textures.cpp"
   "D:/minecraft/src/world/sub_chunk.cpp"
+  "D:/minecraft/src/world/world.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

@@ -63,17 +63,8 @@ int main() {
 
     glViewport(0,0,Graphics_Config::SCREEN_WIDTH,Graphics_Config::SCREEN_HEIGHT);
 
-    sub_chunk* chunk1 = new sub_chunk(1,1,1,world1);
-    sub_chunk* chunk2 = new sub_chunk(0,0,0,world1);
-    sub_chunk* chunk3 = new sub_chunk(-1,-1,-1,world1);
-
-    world1.worldChunks.push_back(chunk1);
-    world1.worldChunks.push_back(chunk2);
-    world1.worldChunks.push_back(chunk3);
-
-    chunk1->mesh_sub_chunk();
-    chunk2->mesh_sub_chunk();
-    chunk3->mesh_sub_chunk();
+    world1.fill_chunks();
+    world1.pre_mesh_chunks();
 
 /*  VAO VAO1;
     VBO VBO1(CUBE_VERTICES, sizeof(CUBE_VERTICES));
@@ -83,7 +74,7 @@ int main() {
 
     shaderProgram.Use();
 
-    Texture tex1("../assets/TEM.jpg");
+    Texture tex1("../assets/goon.jpg");
 
     glEnable(GL_DEPTH_TEST);
     glfwSwapInterval(1);

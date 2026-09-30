@@ -28,9 +28,9 @@ class sub_chunk {
 
         std::vector<float> sub_chunk_vertices;
 
-        Minecraft_World chunkWorld;
+        Minecraft_World* worldContainer;
 
-        sub_chunk(int xPos, int yPos, int zPos, Minecraft_World chunkWorld_insert);
+        sub_chunk(int xPos, int yPos, int zPos, Minecraft_World* worldContainerTEMP);
 
         void fill_sub_chunk();
 

@@ -40,5 +40,11 @@
   "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe -ID:/minecraft/include -ID:/minecraft/config -g -std=gnu++17 -o CMakeFiles\\minecraft.dir\\src\\world\\sub_chunk.cpp.obj -c D:\\minecraft\\src\\world\\sub_chunk.cpp",
   "file": "D:/minecraft/src/world/sub_chunk.cpp",
   "output": "D:/minecraft/build/CMakeFiles/minecraft.dir/src/world/sub_chunk.cpp.obj"
+},
+{
+  "directory": "D:/minecraft/build",
+  "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe -ID:/minecraft/include -ID:/minecraft/config -g -std=gnu++17 -o CMakeFiles\\minecraft.dir\\src\\world\\world.cpp.obj -c D:\\minecraft\\src\\world\\world.cpp",
+  "file": "D:/minecraft/src/world/world.cpp",
+  "output": "D:/minecraft/build/CMakeFiles/minecraft.dir/src/world/world.cpp.obj"
 }
 ]

@@ -12,12 +12,13 @@
 #include "world/world.h"
 
 
-sub_chunk::sub_chunk(int xPos, int yPos, int zPos, Minecraft_World chunkWorld_insert) { //x and z start at the center and y top is 0 and y bottom is 15
+sub_chunk::sub_chunk(int xPos, int yPos, int zPos, Minecraft_World* worldContainerTEMP) { //x and z start at the center and y top is 0 and y bottom is 15
+
+    worldContainer = worldContainerTEMP;
+
     xPosition = xPos * World_n::SUB_CHUNK_SIZE;
     yPosition = yPos * World_n::SUB_CHUNK_SIZE;
     zPosition = zPos * World_n::SUB_CHUNK_SIZE;
-
-    chunkWorld = chunkWorld_insert;
 
     fill_sub_chunk();
 
@@ -59,10 +60,7 @@ void sub_chunk::add_face(int face, int x, int y, int z) {
 
 bool sub_chunk::is_air(int x, int y, int z)
 {
-    if (x < 0 || x >= World_n::SUB_CHUNK_SIZE ||
-        y < 0 || y >= World_n::SUB_CHUNK_SIZE ||
-        z < 0 || z >= World_n::SUB_CHUNK_SIZE)
-    {
+    if (x < 0 || x >= World_n::SUB_CHUNK_SIZE || y < 0 || y >= World_n::SUB_CHUNK_SIZE || z < 0 || z >= World_n::SUB_CHUNK_SIZE) {
         return true;
     }
 
