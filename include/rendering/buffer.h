@@ -23,6 +23,8 @@ class VBO {
 
         void insert_data(const float vertices[], size_t sizeOfVertices);
         void insert_data(std::vector<float> vertices, size_t sizeOfVertices);
+
+        void Bind();
 };
 
 class EBO {

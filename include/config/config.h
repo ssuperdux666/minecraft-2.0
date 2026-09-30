@@ -15,7 +15,7 @@ namespace Graphics_Config {
     constexpr float FOV = glm::radians(90.0f);
 }
 
-namespace World {
+namespace World_n {
 
     constexpr int SUB_CHUNK_SIZE = 16;
     constexpr int SUB_CHUNK_LENGTH = SUB_CHUNK_SIZE * SUB_CHUNK_SIZE * SUB_CHUNK_SIZE;

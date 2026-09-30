@@ -32,11 +32,17 @@ VBO::VBO(const float vertices[], size_t sizeOfVertices) {
 
 
 void VBO::insert_data(const float vertices[], size_t sizeOfVertices) {
+    Bind();
     glBufferData(GL_ARRAY_BUFFER,sizeOfVertices,vertices,GL_STATIC_DRAW);
 }
 
 void VBO::insert_data(std::vector<float> vertices, size_t sizeOfVertices) {
+    Bind();
     glBufferData(GL_ARRAY_BUFFER,sizeOfVertices,vertices.data(),GL_STATIC_DRAW);
+}
+
+void VBO::Bind() {
+    glBindBuffer(GL_ARRAY_BUFFER, ID);
 }
 
 //EBO

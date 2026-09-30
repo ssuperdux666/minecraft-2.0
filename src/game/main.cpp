@@ -19,6 +19,9 @@
 
 #include "world/cube.h"
 #include "world/sub_chunk.h"
+#include "world/world.h"
+
+Minecraft_World world1;
 
 unsigned int GLOBAL_DEBUG_INDEX = 0;
 
@@ -60,9 +63,17 @@ int main() {
 
     glViewport(0,0,Graphics_Config::SCREEN_WIDTH,Graphics_Config::SCREEN_HEIGHT);
 
-    sub_chunk* chunk1 = new sub_chunk(0,0,0);
+    sub_chunk* chunk1 = new sub_chunk(1,1,1,world1);
+    sub_chunk* chunk2 = new sub_chunk(0,0,0,world1);
+    sub_chunk* chunk3 = new sub_chunk(-1,-1,-1,world1);
+
+    world1.worldChunks.push_back(chunk1);
+    world1.worldChunks.push_back(chunk2);
+    world1.worldChunks.push_back(chunk3);
 
     chunk1->mesh_sub_chunk();
+    chunk2->mesh_sub_chunk();
+    chunk3->mesh_sub_chunk();
 
 /*  VAO VAO1;
     VBO VBO1(CUBE_VERTICES, sizeof(CUBE_VERTICES));
@@ -70,15 +81,9 @@ int main() {
     
     Shader shaderProgram;
 
-    glVertexAttribPointer(0,3,GL_FLOAT,GL_FALSE,5*sizeof(float),(void*)0);
-    glEnableVertexAttribArray(0);
-
-    glVertexAttribPointer(1,2,GL_FLOAT,GL_FALSE,5*sizeof(float),(void*)(3*sizeof(float)));
-    glEnableVertexAttribArray(1);
-
     shaderProgram.Use();
 
-    Texture tex1("../assets/goon.jpg");
+    Texture tex1("../assets/TEM.jpg");
 
     glEnable(GL_DEPTH_TEST);
     glfwSwapInterval(1);
@@ -106,25 +111,26 @@ int main() {
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
         mainCam.process_input(window,deltaTime);
-
-        //model
-        glm::mat4 model = glm::mat4(1.0f);
-        model = glm::translate(model, glm::vec3(0.0f,0.0f,0.0f));
-        model = glm::scale(model, glm::vec3(1.0f, 1.0f, 1.0f));
-        //view
-        glm::mat4 view = glm::mat4(1.0f);
-        view = glm::lookAt(mainCam.camPosition, mainCam.camPosition + mainCam.camDirection, mainCam.camUp);
-        //projection
-        glm::mat4 projection;
-        projection = glm::perspective(Graphics_Config::FOV, Graphics_Config::SCREEN_WIDTH / Graphics_Config::SCREEN_HEIGHT, 0.01f, 100.0f);
-
-        glUniformMatrix4fv(modelLoc2, 1, GL_FALSE, glm::value_ptr(view)); 
-        glUniformMatrix4fv(modelLoc3, 1, GL_FALSE, glm::value_ptr(projection)); 
-        glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model));   
             
+        for (sub_chunk* chunk : world1.worldChunks) {
 
-        chunk1->draw(tex1,shaderProgram);
-        
+            //model
+            glm::mat4 model = glm::mat4(1.0f);
+            model = glm::translate(model, glm::vec3((float)chunk->xPosition,(float)chunk->yPosition,(float)chunk->zPosition));
+            //view
+            glm::mat4 view = glm::mat4(1.0f);
+            view = glm::lookAt(mainCam.camPosition, mainCam.camPosition + mainCam.camDirection, mainCam.camUp);
+            //projection
+            glm::mat4 projection;
+            projection = glm::perspective(Graphics_Config::FOV, Graphics_Config::SCREEN_WIDTH / Graphics_Config::SCREEN_HEIGHT, 0.01f, 100.0f);
+
+            glUniformMatrix4fv(modelLoc2, 1, GL_FALSE, glm::value_ptr(view)); 
+            glUniformMatrix4fv(modelLoc3, 1, GL_FALSE, glm::value_ptr(projection)); 
+            glUniformMatrix4fv(modelLoc, 1, GL_FALSE, glm::value_ptr(model)); 
+
+            chunk->draw(tex1,shaderProgram);
+        }
+
         glfwSwapBuffers(window);
         glfwPollEvents();
     }

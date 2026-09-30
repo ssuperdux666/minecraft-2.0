@@ -7,6 +7,8 @@
 #include "rendering/shader.h"
 #include "rendering/textures.h"
 
+#include "world/world.h"
+
 typedef unsigned short uint16_t;
 
 class sub_chunk {
@@ -26,7 +28,9 @@ class sub_chunk {
 
         std::vector<float> sub_chunk_vertices;
 
-        sub_chunk(int xPos, int yPos, int zPos);
+        Minecraft_World chunkWorld;
+
+        sub_chunk(int xPos, int yPos, int zPos, Minecraft_World chunkWorld_insert);
 
         void fill_sub_chunk();
 

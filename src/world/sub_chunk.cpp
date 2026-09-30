@@ -9,18 +9,36 @@
 #include "rendering/shader.h"
 #include "rendering/textures.h"
 
+#include "world/world.h"
 
-sub_chunk::sub_chunk(int xPos, int yPos, int zPos) { //x and z start at the center and y top is 0 and y bottom is 15
-    xPosition = xPos;
-    yPosition = yPos;
-    zPosition = zPos;
+
+sub_chunk::sub_chunk(int xPos, int yPos, int zPos, Minecraft_World chunkWorld_insert) { //x and z start at the center and y top is 0 and y bottom is 15
+    xPosition = xPos * World_n::SUB_CHUNK_SIZE;
+    yPosition = yPos * World_n::SUB_CHUNK_SIZE;
+    zPosition = zPos * World_n::SUB_CHUNK_SIZE;
+
+    chunkWorld = chunkWorld_insert;
 
     fill_sub_chunk();
+
+    VAO1.Bind();
+    VBO1.Bind();
+
+    glVertexAttribPointer(0,3,GL_FLOAT,GL_FALSE,5*sizeof(float),(void*)0);
+    glEnableVertexAttribArray(0);
+
+    glVertexAttribPointer(1,2,GL_FLOAT,GL_FALSE,5*sizeof(float),(void*)(3*sizeof(float)));
+    glEnableVertexAttribArray(1);
 }
 
 void sub_chunk::fill_sub_chunk() {
-    for (int i = 0; i < World::SUB_CHUNK_LENGTH; i++) {
-        sub_chunk_array[i] = 1;
+    for (int i = 0; i < World_n::SUB_CHUNK_LENGTH; i++) {
+        if (i % 1 == 0) {
+            sub_chunk_array[i] = 1;
+        }else {
+            sub_chunk_array[i] = 0;
+        }
+            
     }
 }
 
@@ -41,9 +59,9 @@ void sub_chunk::add_face(int face, int x, int y, int z) {
 
 bool sub_chunk::is_air(int x, int y, int z)
 {
-    if (x < 0 || x >= World::SUB_CHUNK_SIZE ||
-        y < 0 || y >= World::SUB_CHUNK_SIZE ||
-        z < 0 || z >= World::SUB_CHUNK_SIZE)
+    if (x < 0 || x >= World_n::SUB_CHUNK_SIZE ||
+        y < 0 || y >= World_n::SUB_CHUNK_SIZE ||
+        z < 0 || z >= World_n::SUB_CHUNK_SIZE)
     {
         return true;
     }
@@ -53,13 +71,13 @@ bool sub_chunk::is_air(int x, int y, int z)
 
 void sub_chunk::mesh_sub_chunk() {
     
-    for (int index = 0; index < World::SUB_CHUNK_LENGTH; index++) {
+    for (int index = 0; index < World_n::SUB_CHUNK_LENGTH; index++) {
 
-        int remainder = index % (World::SUB_CHUNK_SIZE * World::SUB_CHUNK_SIZE);
+        int remainder = index % (World_n::SUB_CHUNK_SIZE * World_n::SUB_CHUNK_SIZE);
 
-        int z = index / (World::SUB_CHUNK_SIZE * World::SUB_CHUNK_SIZE);
-        int y = remainder / World::SUB_CHUNK_SIZE;
-        int x = remainder % World::SUB_CHUNK_SIZE;
+        int z = index / (World_n::SUB_CHUNK_SIZE * World_n::SUB_CHUNK_SIZE);
+        int y = remainder / World_n::SUB_CHUNK_SIZE;
+        int x = remainder % World_n::SUB_CHUNK_SIZE;
 
         if (sub_chunk_array[index] != 0) {
 
@@ -81,7 +99,8 @@ void sub_chunk::mesh_sub_chunk() {
 void sub_chunk::draw(Texture tex1, Shader shaderProgram) {
     glBindTexture(GL_TEXTURE_2D, tex1.ID);
 
-    glUseProgram(shaderProgram.ID);
+    shaderProgram.Use();
+
     VAO1.Bind();
 
     glDrawArrays(
