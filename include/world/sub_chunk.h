@@ -11,6 +11,8 @@
 
 typedef unsigned short uint16_t;
 
+class Minecraft_World;
+
 class sub_chunk {
     public:
         int xPosition; //0 is center
@@ -38,7 +40,7 @@ class sub_chunk {
 
         void add_face(int face, int x, int y, int z);
 
-        bool is_air(int x, int y, int z);
+        bool is_air(int x, int y, int z, const int directionArr[3]);
 
         void draw(Texture tex1, Shader shaderProgram);
 };

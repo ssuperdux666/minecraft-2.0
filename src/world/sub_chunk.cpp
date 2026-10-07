@@ -45,12 +45,12 @@ void sub_chunk::fill_sub_chunk() {
 
 void sub_chunk::add_face(int face, int x, int y, int z) {
     switch (face) {
-    case 0: paste_face(CUBE_VERTICES_FRONT,x,y,z, sub_chunk_vertices); break;
-    case 1: paste_face(CUBE_VERTICES_BACK,x,y,z, sub_chunk_vertices); break;
-    case 2: paste_face(CUBE_VERTICES_LEFT,x,y,z, sub_chunk_vertices); break;
-    case 3: paste_face(CUBE_VERTICES_RIGHT,x,y,z, sub_chunk_vertices); break;
-    case 4: paste_face(CUBE_VERTICES_UP,x,y,z, sub_chunk_vertices); break;
-    case 5: paste_face(CUBE_VERTICES_BOTTOM,x,y,z, sub_chunk_vertices); break;
+    case 0: paste_face(CUBE_VERTICES_FRONT,x,y,z, sub_chunk_vertices,1); break;
+    case 1: paste_face(CUBE_VERTICES_BACK,x,y,z, sub_chunk_vertices,2); break;
+    case 2: paste_face(CUBE_VERTICES_LEFT,x,y,z, sub_chunk_vertices,3); break;
+    case 3: paste_face(CUBE_VERTICES_RIGHT,x,y,z, sub_chunk_vertices,4); break;
+    case 4: paste_face(CUBE_VERTICES_UP,x,y,z, sub_chunk_vertices,5); break;
+    case 5: paste_face(CUBE_VERTICES_BOTTOM,x,y,z, sub_chunk_vertices,6); break;
     default:
         break;
     }
@@ -58,10 +58,23 @@ void sub_chunk::add_face(int face, int x, int y, int z) {
     faceCount++;
 }
 
-bool sub_chunk::is_air(int x, int y, int z)
-{
+bool sub_chunk::is_air(int x, int y, int z, const int directionArr[3]) {
     if (x < 0 || x >= World_n::SUB_CHUNK_SIZE || y < 0 || y >= World_n::SUB_CHUNK_SIZE || z < 0 || z >= World_n::SUB_CHUNK_SIZE) {
-        return true;
+        int newChunkX = xPosition / World_n::SUB_CHUNK_SIZE + directionArr[0];
+        int newChunkY = yPosition / World_n::SUB_CHUNK_SIZE + directionArr[1];
+        int newChunkZ = zPosition / World_n::SUB_CHUNK_SIZE + directionArr[2];
+
+        int _1DChunkKey = decode_sub_chunk_index(newChunkX,newChunkY,newChunkZ);
+
+        if (worldContainer->worldChunks.find(_1DChunkKey) == worldContainer->worldChunks.end()) {
+            return true;
+        }else {
+            int localX = ((x % 16) + 16) % 16;
+            int localY = ((y % 16) + 16) % 16;
+            int localZ = ((z % 16) + 16) % 16;
+
+            return worldContainer->worldChunks[_1DChunkKey]->sub_chunk_array[decode_sub_chunk_index(localX, localY, localZ)] == 0;
+        }
     }
 
     return sub_chunk_array[decode_sub_chunk_index(x, y, z)] == 0;
@@ -84,7 +97,7 @@ void sub_chunk::mesh_sub_chunk() {
                 int ny = y + directions[face][1];
                 int nz = z + directions[face][2];
 
-                if (is_air(nx, ny, nz)) {
+                if (is_air(nx, ny, nz, directions[face])) {
                     add_face(face, x, y, z);
                 }
             }

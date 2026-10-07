@@ -1,5 +1,5 @@
-1. Make the world chunk container an unordered map because a vector wont keep its indices when elements are removed
-2. Make the is_air function work when you go outside of the chunk borders to add multible chunk face culling
+1. --Make the world chunk container an unordered map because a vector wont keep its indices when elements are removed
+2. --Make the is_air function work when you go outside of the chunk borders to add multible chunk face culling
 3. ?maybe add greedy meshing?
 4. Add diffrent block types using JSON files for each block and a library to read it
 5. Add textures and texture coordinates with a working texture atlas

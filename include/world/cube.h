@@ -73,63 +73,63 @@ const unsigned int CUBE_INDEX_SINGLE[6] = {
 };
 
 const float CUBE_VERTICES_FRONT[30] = {
-    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-     0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
-     0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
+    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f, // bottom left
+     0.5f, -0.5f,  0.5f,  1.0f, 0.0f, // bottom right
+     0.5f,  0.5f,  0.5f,  1.0f, 1.0f, // top right
 
-     0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
-    -0.5f,  0.5f,  0.5f,  0.0f, 1.0f,
-    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
+     0.5f,  0.5f,  0.5f,  1.0f, 1.0f, // top right
+    -0.5f,  0.5f,  0.5f,  0.0f, 1.0f, // top left
+    -0.5f, -0.5f,  0.5f,  0.0f, 0.0f, // bottom left
 };
 
 const float CUBE_VERTICES_BACK[30] = {
-     0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
-    -0.5f, -0.5f, -0.5f,  1.0f, 0.0f,
-    -0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
+     0.5f, -0.5f, -0.5f,  0.0f, 0.0f, // bottom left
+    -0.5f, -0.5f, -0.5f,  1.0f, 0.0f, // bottom right
+    -0.5f,  0.5f, -0.5f,  1.0f, 1.0f, // top right
 
-    -0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-     0.5f,  0.5f, -0.5f,  0.0f, 1.0f,
-     0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
+    -0.5f,  0.5f, -0.5f,  1.0f, 1.0f, // top right
+     0.5f,  0.5f, -0.5f,  0.0f, 1.0f, // top left
+     0.5f, -0.5f, -0.5f,  0.0f, 0.0f, // bottom left
 };
 
 const float CUBE_VERTICES_LEFT[30] = {
-    -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
-    -0.5f, -0.5f,  0.5f,  1.0f, 0.0f,
-    -0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
+    -0.5f, -0.5f, -0.5f,  0.0f, 0.0f, // bottom left
+    -0.5f, -0.5f,  0.5f,  1.0f, 0.0f, // bottom right
+    -0.5f,  0.5f,  0.5f,  1.0f, 1.0f, // top right
 
-    -0.5f,  0.5f,  0.5f,  1.0f, 1.0f,
-    -0.5f,  0.5f, -0.5f,  0.0f, 1.0f,
-    -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
+    -0.5f,  0.5f,  0.5f,  1.0f, 1.0f, // top right
+    -0.5f,  0.5f, -0.5f,  0.0f, 1.0f, // top left
+    -0.5f, -0.5f, -0.5f,  0.0f, 0.0f, // bottom left
 };
 
 const float CUBE_VERTICES_RIGHT[30] = {
-     0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
-     0.5f, -0.5f, -0.5f,  1.0f, 0.0f,
-     0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
+     0.5f, -0.5f,  0.5f,  0.0f, 0.0f, // bottom left
+     0.5f, -0.5f, -0.5f,  1.0f, 0.0f, // bottom right
+     0.5f,  0.5f, -0.5f,  1.0f, 1.0f, // top right
 
-     0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-     0.5f,  0.5f,  0.5f,  0.0f, 1.0f,
-     0.5f, -0.5f,  0.5f,  0.0f, 0.0f,
+     0.5f,  0.5f, -0.5f,  1.0f, 1.0f, // top right
+     0.5f,  0.5f,  0.5f,  0.0f, 1.0f, // top left
+     0.5f, -0.5f,  0.5f,  0.0f, 0.0f, // bottom left
 };
 
 const float CUBE_VERTICES_UP[30] = {
-    -0.5f,  0.5f,  0.5f,  0.0f, 0.0f,
-     0.5f,  0.5f,  0.5f,  1.0f, 0.0f,
-     0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
+    -0.5f,  0.5f,  0.5f,  0.0f, 0.0f, // bottom left
+     0.5f,  0.5f,  0.5f,  1.0f, 0.0f, // bottom right
+     0.5f,  0.5f, -0.5f,  1.0f, 1.0f, // top right
 
-     0.5f,  0.5f, -0.5f,  1.0f, 1.0f,
-    -0.5f,  0.5f, -0.5f,  0.0f, 1.0f,
-    -0.5f,  0.5f,  0.5f,  0.0f, 0.0f,
+     0.5f,  0.5f, -0.5f,  1.0f, 1.0f, // top right
+    -0.5f,  0.5f, -0.5f,  0.0f, 1.0f, // top left
+    -0.5f,  0.5f,  0.5f,  0.0f, 0.0f, // bottom left
 };
 
 const float CUBE_VERTICES_BOTTOM[30] = {
-    -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
-     0.5f, -0.5f, -0.5f,  1.0f, 0.0f,
-     0.5f, -0.5f,  0.5f,  1.0f, 1.0f,
+    -0.5f, -0.5f, -0.5f,  0.0f, 0.0f, // bottom left
+     0.5f, -0.5f, -0.5f,  1.0f, 0.0f, // bottom right
+     0.5f, -0.5f,  0.5f,  1.0f, 1.0f, // top right
 
-     0.5f, -0.5f,  0.5f,  1.0f, 1.0f,
-    -0.5f, -0.5f,  0.5f,  0.0f, 1.0f,
-    -0.5f, -0.5f, -0.5f,  0.0f, 0.0f,
+     0.5f, -0.5f,  0.5f,  1.0f, 1.0f, // top right
+    -0.5f, -0.5f,  0.5f,  0.0f, 1.0f, // top left
+    -0.5f, -0.5f, -0.5f,  0.0f, 0.0f, // bottom left
 };
 
 const int directions[6][3] = {

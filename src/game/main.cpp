@@ -74,7 +74,7 @@ int main() {
 
     shaderProgram.Use();
 
-    Texture tex1("../assets/goon.jpg");
+    Texture tex1("../assets/atlas.png");
 
     glEnable(GL_DEPTH_TEST);
     glfwSwapInterval(1);
@@ -103,7 +103,7 @@ int main() {
 
         mainCam.process_input(window,deltaTime);
             
-        for (sub_chunk* chunk : world1.worldChunks) {
+        for (auto& [key, chunk] : world1.worldChunks) {
 
             //model
             glm::mat4 model = glm::mat4(1.0f);
@@ -113,7 +113,7 @@ int main() {
             view = glm::lookAt(mainCam.camPosition, mainCam.camPosition + mainCam.camDirection, mainCam.camUp);
             //projection
             glm::mat4 projection;
-            projection = glm::perspective(Graphics_Config::FOV, Graphics_Config::SCREEN_WIDTH / Graphics_Config::SCREEN_HEIGHT, 0.01f, 100.0f);
+            projection = glm::perspective(Graphics_Config::FOV, Graphics_Config::SCREEN_WIDTH / Graphics_Config::SCREEN_HEIGHT, 0.01f, 1000.0f);
 
             glUniformMatrix4fv(modelLoc2, 1, GL_FALSE, glm::value_ptr(view)); 
             glUniformMatrix4fv(modelLoc3, 1, GL_FALSE, glm::value_ptr(projection)); 
