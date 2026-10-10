@@ -1,3 +1,5 @@
+#include <fstream>
+
 #include "world/sub_chunk.h"
 #include "config/config.h"
 #include "world/cube.h"
@@ -10,6 +12,8 @@
 #include "rendering/textures.h"
 
 #include "world/world.h"
+
+#include "world/block_definition.h"
 
 
 sub_chunk::sub_chunk(int xPos, int yPos, int zPos, Minecraft_World* worldContainerTEMP) { //x and z start at the center and y top is 0 and y bottom is 15
@@ -34,23 +38,31 @@ sub_chunk::sub_chunk(int xPos, int yPos, int zPos, Minecraft_World* worldContain
 
 void sub_chunk::fill_sub_chunk() {
     for (int i = 0; i < World_n::SUB_CHUNK_LENGTH; i++) {
-        if (i % 1 == 0) {
-            sub_chunk_array[i] = 1;
-        }else {
-            sub_chunk_array[i] = 0;
-        }
+        
+        int y = (i / World_n::SUB_CHUNK_SIZE) % World_n::SUB_CHUNK_SIZE;
+
+        // if (y == 15) {
+        //     sub_chunk_array[i] = 1;
+        // }else if (y > 7) {
+        //     sub_chunk_array[i] = 1;
+        // }else {
+        //     sub_chunk_array[i] = 7;
+        // }
+
+        sub_chunk_array[i] = 2;
             
     }
 }
 
-void sub_chunk::add_face(int face, int x, int y, int z) {
+void sub_chunk::add_face(int face, int x, int y, int z, int blockID) {
+    
     switch (face) {
-    case 0: paste_face(CUBE_VERTICES_FRONT,x,y,z, sub_chunk_vertices,1); break;
-    case 1: paste_face(CUBE_VERTICES_BACK,x,y,z, sub_chunk_vertices,2); break;
-    case 2: paste_face(CUBE_VERTICES_LEFT,x,y,z, sub_chunk_vertices,3); break;
-    case 3: paste_face(CUBE_VERTICES_RIGHT,x,y,z, sub_chunk_vertices,4); break;
-    case 4: paste_face(CUBE_VERTICES_UP,x,y,z, sub_chunk_vertices,5); break;
-    case 5: paste_face(CUBE_VERTICES_BOTTOM,x,y,z, sub_chunk_vertices,6); break;
+    case 0: paste_face(CUBE_VERTICES_FRONT,x,y,z, sub_chunk_vertices,getTexture("FRONT", blockID)); break;
+    case 1: paste_face(CUBE_VERTICES_BACK,x,y,z, sub_chunk_vertices,getTexture("BACK", blockID)); break;
+    case 2: paste_face(CUBE_VERTICES_LEFT,x,y,z, sub_chunk_vertices,getTexture("LEFT", blockID)); break;
+    case 3: paste_face(CUBE_VERTICES_RIGHT,x,y,z, sub_chunk_vertices,getTexture("RIGHT", blockID)); break;
+    case 4: paste_face(CUBE_VERTICES_UP,x,y,z, sub_chunk_vertices,getTexture("TOP", blockID)); break;
+    case 5: paste_face(CUBE_VERTICES_BOTTOM,x,y,z, sub_chunk_vertices,getTexture("BOTTOM", blockID)); break;
     default:
         break;
     }
@@ -98,7 +110,7 @@ void sub_chunk::mesh_sub_chunk() {
                 int nz = z + directions[face][2];
 
                 if (is_air(nx, ny, nz, directions[face])) {
-                    add_face(face, x, y, z);
+                    add_face(face, x, y, z, sub_chunk_array[index]);
                 }
             }
         }

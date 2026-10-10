@@ -1,8 +1,8 @@
 1. --Make the world chunk container an unordered map because a vector wont keep its indices when elements are removed
 2. --Make the is_air function work when you go outside of the chunk borders to add multible chunk face culling
 3. ?maybe add greedy meshing?
-4. Add diffrent block types using JSON files for each block and a library to read it
-5. Add textures and texture coordinates with a working texture atlas
+4. --Add diffrent block types using JSON files for each block and a library to read it
+5. --Add textures and texture coordinates with a working texture atlas
 6. Add terrain variation and simple world generation by loading chunks in render distance
 7. Optimize the meshing system by doing it on a seperate thread or mesh the chunk across multible frames
 8. Add ambient occlusion

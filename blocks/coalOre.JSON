@@ -1,11 +1,11 @@
 {
-    "id": "minecraft:dirt",
+    "id": "minecraft:coalOre",
 
-    "name": "dirt",
-
+    "name": "coal ore",
+    
     "texCoords" : [
         {
-            "tex1" : 0
+            "tex1" : 10
         }
     ],
 

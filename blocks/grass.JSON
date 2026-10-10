@@ -1,0 +1,24 @@
+{
+    "id": "minecraft:grass",
+
+    "name": "grass",
+
+    "texCoords" : [
+        {
+            "tex1" : 0,
+            "tex2" : 1,
+            "tex3" : 2
+        }
+    ],
+
+    "faces" : [
+        {
+            "FRONT" : "tex2",
+            "BACK" : "tex2",
+            "LEFT" : "tex2",
+            "RIGHT" : "tex2",
+            "TOP" : "tex3",
+            "BOTTOM" : "tex1"
+        }
+    ]
+}

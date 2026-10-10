@@ -1,11 +1,12 @@
 {
-    "id": "minecraft:dirt",
+    "id": "minecraft:oakLog",
 
-    "name": "dirt",
+    "name": "oak log",
 
     "texCoords" : [
         {
-            "tex1" : 0
+            "tex1" : 3,
+            "tex2" : 4
         }
     ],
 
@@ -15,8 +16,8 @@
             "BACK" : "tex1",
             "LEFT" : "tex1",
             "RIGHT" : "tex1",
-            "TOP" : "tex1",
-            "BOTTOM" : "tex1"
+            "TOP" : "tex2",
+            "BOTTOM" : "tex2"
         }
     ]
 }

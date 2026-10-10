@@ -9,7 +9,7 @@
 
 #include "world/world.h"
 
-typedef unsigned short uint16_t;
+typedef unsigned char uint8_t;
 
 class Minecraft_World;
 
@@ -26,7 +26,7 @@ class sub_chunk {
 
         int global_sub_chunk_array_index = 0;
 
-        uint16_t sub_chunk_array[16 * 16 * 16];
+        uint8_t sub_chunk_array[16 * 16 * 16];
 
         std::vector<float> sub_chunk_vertices;
 
@@ -38,7 +38,7 @@ class sub_chunk {
 
         void mesh_sub_chunk();
 
-        void add_face(int face, int x, int y, int z);
+        void add_face(int face, int x, int y, int z, int blockID);
 
         bool is_air(int x, int y, int z, const int directionArr[3]);
 

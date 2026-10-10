@@ -1,11 +1,11 @@
 {
-    "id": "minecraft:dirt",
+    "id": "minecraft:sand",
 
-    "name": "dirt",
+    "name": "sand",
 
     "texCoords" : [
         {
-            "tex1" : 0
+            "tex1" : 7
         }
     ],
 

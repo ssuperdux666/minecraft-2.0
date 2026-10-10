@@ -1,0 +1,3 @@
+D:/minecraft/atlasCreator/build/CMakeFiles/autoTexturer.dir
+D:/minecraft/atlasCreator/build/CMakeFiles/edit_cache.dir
+D:/minecraft/atlasCreator/build/CMakeFiles/rebuild_cache.dir

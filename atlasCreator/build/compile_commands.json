@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/minecraft/atlasCreator/build",
+  "command": "D:\\cppCompiler\\ucrt64\\bin\\g++.exe -g -o CMakeFiles\\autoTexturer.dir\\src\\main.cpp.obj -c D:\\minecraft\\atlasCreator\\system\\src\\main.cpp",
+  "file": "D:/minecraft/atlasCreator/system/src/main.cpp",
+  "output": "D:/minecraft/atlasCreator/build/CMakeFiles/autoTexturer.dir/src/main.cpp.obj"
+}
+]

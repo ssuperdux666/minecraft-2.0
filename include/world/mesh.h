@@ -1,10 +1,12 @@
 #ifndef MESH_H
 #define MESH_H
 
+#include "config/config.h"
+
 inline void paste_face(const float vertices[30], int x, int y, int z, std::vector<float>& sub_chunk_vertices,int textureNumber) {
 
     float tileMAX = textureNumber / 16.0f;
-    float tileMIN = (textureNumber-1) / 16.0f;
+    float tileMIN = (textureNumber+1) / 16.0f;
 
     for (int i = 0; i < 6; i++) {// voor iedere vertex (6)  bottom left, bottom right, top right, top right, top left, bottom left
 
@@ -20,7 +22,7 @@ inline void paste_face(const float vertices[30], int x, int y, int z, std::vecto
 }
 
 inline int decode_sub_chunk_index(int x, int y, int z) {
-    int index = (z * 16 * 16) + (y * 16) + x;
+    int index = (z * World_n::SUB_CHUNK_SIZE * World_n::SUB_CHUNK_SIZE) + (y * World_n::SUB_CHUNK_SIZE) + x;
 
     return index;
 }

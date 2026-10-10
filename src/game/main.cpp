@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <vector>
+#include <filesystem>
 
 #include "rendering/buffer.h"
 
@@ -21,6 +22,8 @@
 #include "world/sub_chunk.h"
 #include "world/world.h"
 
+#include "world/block_definition.h"
+
 Minecraft_World world1;
 
 unsigned int GLOBAL_DEBUG_INDEX = 0;
@@ -38,6 +41,12 @@ void mouse_input_func(GLFWwindow* window, double xpos, double ypos) {
 }
 
 int main() {
+
+    std::cout << "Working directory: "
+            << std::filesystem::current_path()
+            << '\n';
+
+    load_ALL_blocks();
 
     if (!glfwInit()) {
         std::cerr << "GLFW failed to load..." << std::endl;
@@ -74,7 +83,7 @@ int main() {
 
     shaderProgram.Use();
 
-    Texture tex1("../assets/atlas.png");
+    Texture tex1("../assets/output.png");
 
     glEnable(GL_DEPTH_TEST);
     glfwSwapInterval(1);
